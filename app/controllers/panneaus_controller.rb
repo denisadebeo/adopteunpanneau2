@@ -5,6 +5,20 @@ class PanneausController < ApplicationController
   # GET /panneaus.json
   def index
     @panneaus = Panneau.all
+
+    lat = params[:lat]
+    long = params[:long]
+    is_ok = params[:is_ok]
+    id_panneaux = params[:id_panneaux]  
+    if id_panneaux && lat && long
+      @panneau = @panneaus.find(id_panneaux.to_i)
+      if is_ok != "false"
+        @panneau.update(:is_ok=> true)
+      else
+        @panneau.update(:is_ok=> false)
+      end
+    end
+
   end
 
   # GET /panneaus/1
@@ -77,25 +91,6 @@ class PanneausController < ApplicationController
       render json: {:result=>200}.to_json
     end
   end
-
-  def check_this_baby 
-    lat = params[:lat]
-    long = params[:long]
-    id_panneaux = params[:id_panneaux]  
-    is_ok = params[:is_ok]
-
-    good_pnx = @panneaus.select{|pnx| pnx[:id_panneaux] == id_panneaux.to_i}
-
-    if is_ok == "true"
-      good_pnx.first[:is_ok] = true 
-    else
-      good_pnx.first[:is_ok] = false
-    end
-    good_pnx.first[:last_check] = Time.new 
-    @panneaux_mavoix = @panneaus
-    erb :index
-  end
-
 
   def getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) 
 

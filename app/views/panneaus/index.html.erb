@@ -37,8 +37,8 @@
     <tr>
       <td> <%= panneau[:name] %> </td>
       <td>  
-        <% if panneau[:last_check]%>
-          <%= panneau[:last_check] %>
+        <% if panneau.updated_at%>
+          <%= panneau.updated_at %>
         <% else %>
           Jamais inspecté
         <% end%>

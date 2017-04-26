@@ -45,13 +45,13 @@ function globalAjaxCall(http_method, url, data){
         type: http_method,
         data: data
     }).done(function(panneaus) {
-      console.log(panneaus);
-      //var closest_panneau = JSON.parse(data);
+      //console.log(panneaus);
+
       var closest_panneau = panneaus[0]
       $("#closest_panneau").html(closest_panneau.name);
       $("#closest_panneau").attr("lat",closest_panneau.lat);
       $("#closest_panneau").attr("long",closest_panneau.long);
-      $("#closest_panneau").attr("id_panneaux",closest_panneau.id_panneaux);
+      $("#closest_panneau").attr("id_panneaux",closest_panneau.id);
       create_map(panneaus);
     });;
 }
@@ -62,14 +62,10 @@ function check_this_baby(is_ok){
   var long = $("#closest_panneau").attr("long"); 
   var id_panneaux = $("#closest_panneau").attr("id_panneaux"); 
   var datas ={"lat":lat,"long":long,"id_panneaux":id_panneaux,"is_ok":is_ok};
-
   console.log(datas);
-
-  $.ajax({
-        url: "panneaus/check_this_baby",
-        type: "get",
-        data: datas
-    })       
+  var path = "/panneaus?lat="+lat+"&long="+long+"&id_panneaux="+id_panneaux+"&is_ok="+is_ok
+  window.location.href = path;
+      
 }
 
 
