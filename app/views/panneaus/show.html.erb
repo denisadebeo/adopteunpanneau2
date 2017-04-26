@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @panneau.lat %>
+</p>
+
+<p>
+  <strong>Long:</strong>
+  <%= @panneau.long %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @panneau.name %>
+</p>
+
+<p>
+  <strong>Is ok:</strong>
+  <%= @panneau.is_ok %>
+</p>
+
+<p>
+  <strong>Ville:</strong>
+  <%= @panneau.ville %>
+</p>
+
+<%= link_to 'Edit', edit_panneau_path(@panneau) %> |
+<%= link_to 'Back', panneaus_path %>

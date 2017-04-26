@@ -1,0 +1,44 @@
+<body>
+  <%= form_for(panneau) do |f| %>
+    <% if panneau.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(panneau.errors.count, "error") %> prohibited this panneau from being saved:</h2>
+
+        <ul>
+        <% panneau.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :lat %>
+      <%= f.text_field :lat %>
+    </div>
+
+    <div class="field">
+      <%= f.label :long %>
+      <%= f.text_field :long %>
+    </div>
+
+    <div class="field">
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :is_ok %>
+      <%= f.check_box :is_ok %>
+    </div>
+
+    <div class="field">
+      <%= f.label :ville %>
+      <%= f.text_field :ville %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+  <% end %>
+</body>
