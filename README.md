@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+               LICENCE PUBLIQUE RIEN À BRANLER
+                     Version 1, mars 2009
 
-Things you may want to cover:
+Copyright (C) 2017 Denis Bolomier
+ 41 rue laure diebold 69009 LYON France
 
-* Ruby version
+La copie et la distribution de copies exactes de cette licence sont
+autorisées, et toute modification est permise à condition de changer
+le nom de la licence. 
 
-* System dependencies
+        CONDITIONS DE COPIE, DISTRIBUTON ET MODIFICATION
+              DE LA LICENCE PUBLIQUE RIEN À BRANLER
 
-* Configuration
+ 0. Faites ce que vous voulez, j’en ai RIEN À BRANLER.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

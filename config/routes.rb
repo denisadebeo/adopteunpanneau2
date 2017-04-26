@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  root 'panneaus#index'
   get 'panneaus/check_this_baby' => 'panneaus#check_this_baby'
   get 'panneaus/get_nearest_pannel' =>  'panneaus#get_nearest_pannel'
   resources :panneaus

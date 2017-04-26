@@ -10,28 +10,28 @@
       </ul>
     </div>
 
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><a href="http://www.mavoix.info/">Site officiel</a></li>
-        <li><a href="https://www.facebook.com/mavoixjuin2017/?fref=ts">Facebook</a></li>
-        <li><a href="https://twitter.com/mavoix2017">Twitter</a></li>
-      </ul>
-    </div>
-
   </div>
 
-  <div>Panneaux le plus prêt</div>
+<hr>
   
   <h1 id="closest_panneau"> panneau le plus prêt</h1>
 
-  <div type="new_checkin" class="button" url="" onclick="check_this_baby(true);">
-    c'est bon
-  </div>
-  <div type="new_checkin" class="button" url=""  onclick="check_this_baby(false);">
-    C'est pas bon
+  <div class="row">
+    <div type="new_checkin" class="button small-5 large-5 columns" url="" onclick="check_this_baby(true);">
+      Bon état
+    </div>
+    <div type="new_checkin" class="button offset-1 small-5 large-5 columns" url=""  onclick="check_this_baby(false);">
+      A recoller
+    </div>
   </div>
 
-  <br>
+  <hr>
+
+  <div class="row">
+    <div style="max-height: 800px; height: 300px;" class="small-12 large-12 columns" id="mapdiv"></div>
+  </div>
+
+  <hr>
   <table>
   <%@panneaus.each do |panneau|%>
     <tr>
@@ -53,6 +53,11 @@
     </tr>
   <%end%>
   </table>
-  <!-- End Top Bar -->
+
+
+  <div id='footer'>
+    Licence WTFPL
+  </div>
+
 
 </body>

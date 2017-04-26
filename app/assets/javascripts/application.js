@@ -44,14 +44,15 @@ function globalAjaxCall(http_method, url, data){
         url: url,
         type: http_method,
         data: data
-    }).done(function(data) {
-      console.log(data);
+    }).done(function(panneaus) {
+      console.log(panneaus);
       //var closest_panneau = JSON.parse(data);
-      var closest_panneau = data
-      $("#closest_panneau").html("<p>"+closest_panneau.name+" à "+ closest_panneau.distance +"</p>");
+      var closest_panneau = panneaus[0]
+      $("#closest_panneau").html(closest_panneau.name);
       $("#closest_panneau").attr("lat",closest_panneau.lat);
       $("#closest_panneau").attr("long",closest_panneau.long);
       $("#closest_panneau").attr("id_panneaux",closest_panneau.id_panneaux);
+      create_map(panneaus);
     });;
 }
 
@@ -69,4 +70,42 @@ function check_this_baby(is_ok){
         type: "get",
         data: datas
     })       
+}
+
+
+function create_map(panneaus){
+    map = new OpenLayers.Map("mapdiv");
+    map.addLayer(new OpenLayers.Layer.OSM());
+
+    var zoom=16;
+    var markers = new OpenLayers.Layer.Markers( "Markers" );
+    map.addLayer(markers);
+
+    var size = new OpenLayers.Size(21,21);
+    var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+
+    for (var i = panneaus.length - 1; i >= 0; i--) {
+      var panneau = panneaus[i];
+      var marker_info_closest_panneau = get_marker_info(panneau);
+      console.log(panneau);
+
+      if (panneau.is_ok == true){
+        var icon = new OpenLayers.Icon('/mavoix-ok.png',size,offset);
+      }  else {
+        var icon = new OpenLayers.Icon('/mavoix-no.png',size,offset);
+      }
+      markers.addMarker(new OpenLayers.Marker(marker_info_closest_panneau,icon)); 
+    
+    }
+    
+    map.setCenter (marker_info_closest_panneau, zoom);
+}
+
+function get_marker_info(panneau){
+    var marker_info = new OpenLayers.LonLat( panneau.lat ,panneau.long )
+          .transform(
+            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+            map.getProjectionObject() // to Spherical Mercator Projection
+          );
+    return marker_info;
 }

@@ -72,14 +72,7 @@ class PanneausController < ApplicationController
         getDistanceFromLatLonInKm(panneau[:long].to_f,panneau[:lat].to_f,lat.to_f,long.to_f)
       }
 
-      closest_panneau = panneaux_sorted.first
-      distance = (getDistanceFromLatLonInKm(closest_panneau[:lat].to_f,closest_panneau[:long].to_f,lat.to_f,long.to_f)/1).round(2)
-     
-
-      closest_panneau_data = JSON.parse(closest_panneau.to_json)
-      closest_panneau_data[:distance] = distance
-      #closest_panneau[:name] + " à " + closest_panneau[:distance]
-      render json: closest_panneau_data.to_json
+      render json: panneaux_sorted.to_json
     else
       render json: {:result=>200}.to_json
     end
