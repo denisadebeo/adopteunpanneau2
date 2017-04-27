@@ -62,7 +62,7 @@ function check_this_baby(is_ok){
   var long = $("#closest_panneau").attr("long"); 
   var id_panneaux = $("#closest_panneau").attr("id_panneaux"); 
   var datas ={"lat":lat,"long":long,"id_panneaux":id_panneaux,"is_ok":is_ok};
-  console.log(datas);
+  //console.log(datas);
   var path = "/panneaus?lat="+lat+"&long="+long+"&id_panneaux="+id_panneaux+"&is_ok="+is_ok
   window.location.href = path;
       
@@ -105,3 +105,6 @@ function get_marker_info(panneau){
           );
     return marker_info;
 }
+
+
+

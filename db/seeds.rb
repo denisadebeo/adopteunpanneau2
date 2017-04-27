@@ -26,7 +26,7 @@
   end
 
   actualFolder = File.dirname(__FILE__)
-  geo_json_path = File.join(actualFolder,"..","public","carte__mavoixlyon.geojson")
+  geo_json_path = File.join(actualFolder,"carte__mavoixlyon.geojson")
   geo_jsons = getHashFromJsonFile geo_json_path
 
   geo_json_features = geo_jsons[:features]
