@@ -25,26 +25,37 @@
       return hash
   end
 
+  extension = "geojson"
   actualFolder = File.dirname(__FILE__)
-  geo_json_path = File.join(actualFolder,"carte__mavoixlyon.geojson")
-  geo_jsons = getHashFromJsonFile geo_json_path
+  all_geojson_filter = "#{actualFolder}/circo/**/*.#{extension}"
+  all_json_files = Dir.glob(all_geojson_filter)
 
-  geo_json_features = geo_jsons[:features]
+  all_json_files.each{|geo_json_path|
 
-  panneaux_mavoix = geo_json_features.map{|geojson| 
-    if geojson[:geometry]
-      if geojson[:geometry][:coordinates]
-        if geojson[:properties]
-          if geojson[:properties][:description]
-            {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:description], :is_ok=> true}
+    geo_jsons = getHashFromJsonFile geo_json_path
+
+    ville = File.basename(geo_json_path, ".#{extension}")
+
+    geo_json_features = geo_jsons[:features]
+
+    panneaux_mavoix = geo_json_features.map{|geojson| 
+      if geojson[:geometry]
+        if geojson[:geometry][:coordinates]
+          if geojson[:properties]
+            if geojson[:properties][:description]
+              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:description], :is_ok=> true, :ville=>ville}
+            elsif geojson[:properties][:Nom]
+              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Nom], :is_ok=> true, :ville=>ville}
+            end
           end
         end
       end
-    end
+    }
+
+    panneaux_mavoix = panneaux_mavoix.select{|pnx| pnx != nil}
+
+    panneaux_mavoix.each{|panneau|
+      Panneau.create(panneau)
+    }  
+
   }
-
-	panneaux_mavoix = panneaux_mavoix.select{|pnx| pnx != nil}
-
-	panneaux_mavoix.each{|panneau|
-		Panneau.create(panneau)
-	}  

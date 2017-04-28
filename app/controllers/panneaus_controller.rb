@@ -1,11 +1,9 @@
 class PanneausController < ApplicationController
   before_action :set_panneau, only: [:show, :edit, :update, :destroy]
-
+  before_action :set_panneaus, only: [:index, :get_nearest_pannel]
   # GET /panneaus
   # GET /panneaus.json
   def index
-    @panneaus = Panneau.all
-
     lat = params[:lat]
     long = params[:long]
     is_ok = params[:is_ok]
@@ -79,8 +77,6 @@ class PanneausController < ApplicationController
     lat = params[:lat]
     long = params[:long]
 
-    @panneaus = Panneau.all
-
     if lat && long && @panneaus
       panneaux_sorted = @panneaus.sort_by{|panneau| 
         getDistanceFromLatLonInKm(panneau[:long].to_f,panneau[:lat].to_f,lat.to_f,long.to_f)
@@ -99,7 +95,6 @@ class PanneausController < ApplicationController
       dist = 12742 * Math.asin(Math.sqrt(a))
       return dist # 2 * R; R = 6371 km
 
-
     end
 
   def deg2rad(deg)
@@ -110,6 +105,14 @@ private
   # Use callbacks to share common setup or constraints between actions.
   def set_panneau
     @panneau = Panneau.find(params[:id])
+  end
+
+  def set_panneaus
+    puts "----set panneau --#{params[:ville]}--"
+    @panneaus = Panneau.all
+    @panneaus = @panneaus.ville(params[:ville]) if params[:ville]
+
+    puts @panneaus.length
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.

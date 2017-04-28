@@ -1,0 +1,411 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Maison des Relations Internationales  ",
+        "Adresse": "14 rue Descente en Barrat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8804567,
+          43.6134843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Jules Verne ",
+        "Adresse": "127 rue Yehudi Menuhim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8839626,
+          43.6173554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Sigmund Freud ",
+        "Adresse": "2 rue des Tourterelles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.880162099999999,
+          43.6261272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Maternelle Térésa ",
+        "Adresse": "30 rue Antoine Laurent de Jussieu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8737997,
+          43.6363486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Maternelle La Fontaine ",
+        "Adresse": "27 ter quai du Verdanson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8780901,
+          43.6153149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Julie Daubie ",
+        "Adresse": "183 allée de l'Aqueduc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8423608,
+          43.6196178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Charles Baudelaire ",
+        "Adresse": "311 avenue Saint Clément"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8462648,
+          43.6167069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Paul Langevin ",
+        "Adresse": "5 rue de Clémentville"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8542527,
+          43.6109418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Jeanne d'Arc ",
+        "Adresse": "9 boulevard des Arceaux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8659286,
+          43.6112107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Maternelle du Docteur Roux ",
+        "Adresse": "96 rue du Faubourg Figuerolles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8617118,
+          43.6061496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Maternelle Vasco de Gama ",
+        "Adresse": "156 rue de la Croix du Sud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8900226,
+          43.6132864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Primaire Olympe de Gouges ",
+        "Adresse": "1415 rue de Bugarel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.845351199999999,
+          43.5909848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Périclès ",
+        "Adresse": "528 boulevard d'Antigone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8886831,
+          43.6086912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Maison Pour Tous Marie Curie ",
+        "Adresse": "13 allée Antonin Chauliac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.830401,
+          43.6136338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Maternelle Anatole France ",
+        "Adresse": "10 rue Général Lafon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8756932,
+          43.6046077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Simon Bolivar ",
+        "Adresse": "300 avenue de Barcelone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8175684,
+          43.6232993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole  Elémentaire Sévigné ",
+        "Adresse": "5 rue Bernard de Tréviers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8695335,
+          43.6059942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Heidelberg ",
+        "Adresse": "91 rue Charles Bonaparte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8140834,
+          43.6254338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Gambetta ",
+        "Adresse": "20 rue des Soldats"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8712016,
+          43.6075836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire L. Sedar Senghor ",
+        "Adresse": "26 rue de Bologne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8176011,
+          43.627195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Primaire Lamartine ",
+        "Adresse": "30 rue de la Valfère"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.873783099999999,
+          43.6094743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Galilée ",
+        "Adresse": "47 rue Jaufré Rudel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8199104,
+          43.6382712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Salle Pagézy ",
+        "Adresse": "1 place Francis Ponge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8845848,
+          43.6093572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Marc Bloch ",
+        "Adresse": "135 allée des Hauts de Montpellier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8117501,
+          43.6396625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Maternelle Jean-Jacques Rousseau ",
+        "Adresse": "21 rue d'Aigrefeuille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.875959,
+          43.61253610000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Elémentaire Rabelais ",
+        "Adresse": "48 rue Emmanuel Héré"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8273561,
+          43.6344435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Espace Martin Luther King ",
+        "Adresse": "27 boulevard Louis Blanc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8803288,
+          43.614608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Maison de la Démocratie ",
+        "Adresse": "16 rue de la République"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8790124,
+          43.6050852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nom": "Ecole Maternelle Geneviève Bon ",
+        "Adresse": "971 rue Paul Rimbaud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.839567299999999,
+          43.617551
+        ]
+      }
+    }
+  ]
+}

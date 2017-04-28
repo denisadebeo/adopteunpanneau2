@@ -1,0 +1,10 @@
+ 
+  <h1 id="closest_panneau"> Circonscriptions </h1>
+
+  <table>
+  <%@circonscriptions.each do |circonscription|%>
+    <tr>
+      <td><a href="/panneaus?ville=<%=circonscription%>"> <%= circonscription.gsub("_"," ") %> </a></td>
+    </tr>
+  <%end%>
+  </table>

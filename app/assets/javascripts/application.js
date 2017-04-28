@@ -26,7 +26,21 @@ function init_geoloc(){
     var long = position.coords.longitude;
     //var infopos = "Position déterminée :\n";
     //infopos += "Altitude : "+position.coords.altitude +"\n";
+
+    $.urlParam = function(name){
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if (results==null){
+           return null;
+        }
+        else{
+           return results[1] || 0;
+        }
+    }
+
     var path = "panneaus/get_nearest_pannel?lat="+lat+"&long="+long;
+    if (typeof $.urlParam('ville') != 'undefined'){
+      path += "&ville="+$.urlParam('ville');
+    }
     console.log(path);
     var closest_panneau = globalAjaxCall("get",path,"");       
   }
