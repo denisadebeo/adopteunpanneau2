@@ -32,6 +32,7 @@
 
   all_json_files.each{|geo_json_path|
 
+    puts "#{geo_json_path}"
     geo_jsons = getHashFromJsonFile geo_json_path
 
     ville = File.basename(geo_json_path, ".#{extension}")
@@ -46,9 +47,19 @@
               {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:description], :is_ok=> true, :ville=>ville}
             elsif geojson[:properties][:Nom]
               {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Nom], :is_ok=> true, :ville=>ville}
+            elsif geojson[:properties][:Name]
+              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Name], :is_ok=> true, :ville=>ville}
+            else
+              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => "voir sur la carte", :is_ok=> true, :ville=>ville}
             end
+          else
+            puts "no geojson[:properties]"
           end
+        else
+          puts "no geojson[:geometry][:coordinates] "
         end
+      else
+        puts "no geojson[:geometry]"
       end
     }
 
@@ -56,6 +67,7 @@
     panneaux_mavoix.uniq!
     panneaux_mavoix.each{|panneau|
       Panneau.create(panneau)
-    }  
+    } 
+    puts  panneaux_mavoix.length
 
   }
