@@ -45,6 +45,10 @@
 
   <script type="text/javascript">
       $( document ).ready(function() {
+        if (window.location.protocol == "http:"){
+          console.log("kkk");
+          $("H1").html("!! USE HTTPS !!!");
+        }
         init_geoloc();
       });
   </script>
