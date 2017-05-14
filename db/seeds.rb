@@ -53,7 +53,7 @@
     }
 
     panneaux_mavoix = panneaux_mavoix.select{|pnx| pnx != nil}
-
+    panneaux_mavoix.uniq!
     panneaux_mavoix.each{|panneau|
       Panneau.create(panneau)
     }  
