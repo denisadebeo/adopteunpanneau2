@@ -5,7 +5,7 @@
 <hr>
   
   <div class="row">
-      <div href="#" class="button small-12 large-12 columns" onclick="init_geoloc();">maj</div>
+      <div href="#" class="button small-12 large-12 columns" onclick="init_geoloc();">Actualiser la position</div>
   </div>
 
   <h1 id="closest_panneau"> panneau le plus proche</h1>
@@ -37,9 +37,9 @@
       </td>
       <td>
         <% if panneau[:is_ok] %> 
-          <i class="gen-enclosed foundicon-checkmark"><p>nickel chrome</p></i>
+          <i class="gen-enclosed foundicon-checkmark"><p id=<%=panneau.id%> >Bonne état</p></i>
         <%else%>
-          <i class="social foundicon-thumb-down panneau_pourri"><p>Pourri</p></i>
+          <i class="social foundicon-thumb-down panneau_pourri"><p id=<%=panneau.id%>>A recoller</p></i>
         <%end%>
       </td>
     </tr>
@@ -49,7 +49,6 @@
   <script type="text/javascript">
       $( document ).ready(function() {
         if (window.location.protocol == "http:"){
-          console.log("kkk");
           $("H1").html("!! USE HTTPS !!!");
         }
         init_geoloc();

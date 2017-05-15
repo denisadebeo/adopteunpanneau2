@@ -66,7 +66,8 @@ function init_geoloc(new_spec_update){
   if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(maPosition);
   } else {
-    console;log("geoloc not ok");
+    $("H1").html("! Activer la Geoloc !");
+    loadGiff(false);
   }
 
 }
@@ -116,8 +117,10 @@ function update_map(panneaus){
     if (typeof spec_update != 'undefined'){
       if (spec_update.is_ok == true){
         markers_last.setUrl('mavoix-ok.png');  
+        $("#"+spec_update.id_panneaux).html("Bonne état");
       } else {
         markers_last.setUrl('mavoix-no.png');  
+        $("#"+spec_update.id_panneaux).html("A recoller");
       }   
     }
     is_update_running = false;
