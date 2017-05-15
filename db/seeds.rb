@@ -91,7 +91,7 @@ require 'csv'
   villes_a_conserver = [
     "17, Charente-Maritime, Poitou-Charentes _ 01 CIRCO",
     "17, Charente-Maritime, Poitou-Charentes _ 02 CIRCO",
-    "30, Gard, Languedoc-Roussillon _ 02 CIRCO",
+    "30, Gard, Languedoc-Roussillon _ 04 CIRCO",
     "31, Haute-Garonne, Midi-Pyrénées _ 02 CIRCO",
     "33, Gironde, Aquitaine _ 03 CIRCO",
     "34, Hérault, Languedoc-Roussillon _ 02 CIRCO",
