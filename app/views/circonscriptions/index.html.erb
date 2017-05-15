@@ -1,4 +1,5 @@
- 
+<a href = "#explication"><span class= "button"> explications<span></a>
+
   <h1 id="closest_panneau"> Circonscriptions </h1>
 
   <table>
@@ -8,6 +9,44 @@
     </tr>
   <%end%>
   </table>
+
+
+  <h1 id="explication"> adopte un panneau</h1>
+
+  <div class="row ">
+    <div class="small-0 medium-2 column">
+        <%= image_tag("capture.png", size: '360x640', class: "show-for-medium")  %>
+    </div>
+    <div class="small-12 medium-10 column">
+      <h2>Fonctionnement</h2>
+      Ce site "adopte un panneau" permet de suivre l'état des panneaux d'affichage.
+      Sur cette page vous pouvez choisir votre circonscription.
+      Sur la page de circonscription, au centre de la carte vous voyezle panneaux le plus proche:
+      <ul>
+        <li>Si il est rouge , c'est que quelqu'un l'a endommagé.</li>
+        <li>Si il est jaune , c'est qu'il est en bonne état.</li>
+      </ul>
+      Si le panneau le plus proche que vous voyez est:
+      <ul> 
+        <li>endommagé, appuyez sur <span class="button">A recoller</span></li>
+        <li>réparé par vos soins, appuyez sur <span class="button">Bon état</span></li>
+      </ul>
+      
+      Pour mettre à jour le panneau en fonction de votre position: <span class="button">Actualiser la position</span>.
+
+      <h2>HTPPS</h2>
+      
+      Pour que le site fonctionne assurer vous d'être bien en https ( le petit cadenas sur la barre d'adresse du navigateur), sinon cliquez sur ce <a href="https://adopteunpanneau.herokuapp.com"><span class="button"> lien</span> </a>.
+
+      <h2>Activer la GEOLOCALISATION</h2>
+      Sur votre téléphone il est nécéssaire de bien penser à activer la géolocalisation et accepter son utilisation.
+
+      <h2></h2>
+        Reportez les bugs <a href="https://github.com/adebeo/adopteunpanneau2/issues">ici</a>
+        (par exemple le site n'affiche pas la carte sur Iphone 6+ ).
+    </div>
+  </div>
+
 
   <script type="text/javascript">
       $( document ).ready(function() {
