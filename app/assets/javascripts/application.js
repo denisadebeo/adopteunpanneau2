@@ -62,6 +62,7 @@ function init_geoloc(new_spec_update){
     globalAjaxCall("get",path,"");       
   }
 
+  loadGiff(true);
   if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(maPosition);
   } else {
@@ -98,6 +99,7 @@ function globalAjaxCall(http_method, url, data){
         console.log("update map");
         update_map(panneaus);
       }
+      loadGiff(false);
     });
     return {"ok":"dd"}
 }
@@ -167,5 +169,12 @@ function add_panneaus(panneaus){
   map.setCenter (marker_info_closest_panneau, zoom);
 }
 
-
+function loadGiff(hideit){
+    $body = $("body");
+    if (hideit == true){
+        $body.addClass("loading");
+    } else {
+        $body.removeClass("loading");
+    }
+}
 
