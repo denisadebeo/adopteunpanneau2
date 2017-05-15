@@ -62,7 +62,6 @@ function init_geoloc(new_spec_update){
     globalAjaxCall("get",path,"");       
   }
 
-  loadGiff(true);
   if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(maPosition);
   } else {
@@ -74,6 +73,7 @@ function init_geoloc(new_spec_update){
 
 
 function change_panneaus_info(spec_update) {
+  loadGiff(true);
   spec_update['id_panneaux'] = $("#closest_panneau").attr("id_panneaux");
   init_geoloc(spec_update);
 }
