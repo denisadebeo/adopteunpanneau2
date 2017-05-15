@@ -119,9 +119,15 @@ private
   end
 
   def set_panneaus
-    puts "----set panneau --#{params[:ville]}--"
+    #puts "----set panneau --#{params[:ville]}--"
     @panneaus = Panneau.all
-    @panneaus = @panneaus.ville(params[:ville]) if params[:ville]
+    if params[:ville]
+      if params[:ville] == "Paris"
+        @panneaus = @panneaus.where("ville like ?", "%Paris%")
+      else
+        @panneaus = @panneaus.ville(params[:ville]) if params[:ville]
+      end
+    end
 
   end
 

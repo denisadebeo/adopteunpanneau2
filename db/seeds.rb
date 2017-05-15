@@ -117,6 +117,9 @@ require 'csv'
     "95, Val-d'Oise, Île-de-France _ 04 CIRCO"
   ]
 
+  # Hérault 6ème circonscription MANQUE
+  # 92-2
+
   actualFolder = File.dirname(__FILE__)
   all_geojson_filter = "#{actualFolder}/circo/panneaux-election-_from mavoix_with_for_adopte_un_panneau.csv"
   CSV.foreach(all_geojson_filter, encoding: "bom|utf-8",headers: :first_row, col_sep: ';') do |data_line_from_csv|
@@ -127,7 +130,7 @@ require 'csv'
           nom = "Aucun nom renseigner" if !data_line_from_csv[3]
 
           if villes_a_conserver.include? data_line_from_csv[0]
-            json = {:ville=> data_line_from_csv[0].gsub(",","_"), :long =>  data_line_from_csv[1].to_f, :lat => data_line_from_csv[2].to_f, :name => nom, :is_ok=> false}
+            json = {:ville=> data_line_from_csv[0].gsub(", ","-").gsub(" _ ","-"), :long =>  data_line_from_csv[1].to_f, :lat => data_line_from_csv[2].to_f, :name => nom, :is_ok=> false}
             panneaux_mavoix.push json
           end
         end
