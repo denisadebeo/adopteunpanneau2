@@ -173,6 +173,7 @@ function add_panneaus(panneaus){
 }
 
 function loadGiff(hideit){
+
     $body = $("body");
     if (hideit == true){
         $body.addClass("loading");
@@ -180,4 +181,5 @@ function loadGiff(hideit){
         $body.removeClass("loading");
     }
 }
+
 

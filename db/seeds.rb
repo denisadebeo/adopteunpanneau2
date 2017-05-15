@@ -130,7 +130,7 @@ require 'csv'
           nom = "Aucun nom renseigner" if !data_line_from_csv[3]
 
           if villes_a_conserver.include? data_line_from_csv[0]
-            json = {:ville=> data_line_from_csv[0].gsub(", ","-").gsub(" _ ","-"), :long =>  data_line_from_csv[1].to_f, :lat => data_line_from_csv[2].to_f, :name => nom, :is_ok=> false}
+            json = {:ville=> data_line_from_csv[0].gsub(", ","-").gsub(" _ ","-").gsub(" ","-"), :long =>  data_line_from_csv[1].to_f, :lat => data_line_from_csv[2].to_f, :name => nom, :is_ok=> false}
             panneaux_mavoix.push json
           end
         end

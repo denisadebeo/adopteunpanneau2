@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<body>
+<body onload="onBodyLoad();">
 
 <hr>
   
@@ -47,11 +47,15 @@
   </table>
 
   <script type="text/javascript">
-      $( document ).ready(function() {
+
+    function onBodyLoad(){
         if (window.location.protocol == "http:"){
           $("H1").html("!! Passez en HTTPS:// dans la barre d'adresse !!!");
         }
+        loadGiff(true);
         init_geoloc();
-      });
+        document.addEventListener("deviceready",init_geoloc(),false);
+
+    }
   </script>
 

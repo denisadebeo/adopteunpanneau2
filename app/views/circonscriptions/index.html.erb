@@ -5,7 +5,12 @@
   <table>
   <%@circonscriptions.each do |circonscription|%>
     <tr>
-      <td><a href="/panneaus?ville=<%=circonscription%>"> <%= circonscription.gsub("_"," ") %> </a></td>
+      <td>
+        <%= link_to "/panneaus?ville=#{circonscription}", target: :_blank do %>
+            <%= circonscription.gsub("_"," ") %>
+        <% end %> 
+      </td>
+
     </tr>
   <%end%>
   </table>
