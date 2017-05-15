@@ -59,13 +59,13 @@ require 'csv'
         if geojson[:geometry][:coordinates]
           if geojson[:properties]
             if geojson[:properties][:description]
-              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:description], :is_ok=> true, :ville=>ville}
+              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:description], :is_ok=> false, :ville=>ville}
             elsif geojson[:properties][:Nom]
-              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Nom], :is_ok=> true, :ville=>ville}
+              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Nom], :is_ok=> false, :ville=>ville}
             elsif geojson[:properties][:Name]
-              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Name], :is_ok=> true, :ville=>ville}
+              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Name], :is_ok=> false, :ville=>ville}
             else
-              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => "voir sur la carte", :is_ok=> true, :ville=>ville}
+              {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => "voir sur la carte", :is_ok=> false, :ville=>ville}
             end
           else
             puts "no geojson[:properties]"
@@ -127,7 +127,7 @@ require 'csv'
           nom = "Aucun nom renseigner" if !data_line_from_csv[3]
 
           if villes_a_conserver.include? data_line_from_csv[0]
-            json = {:ville=> data_line_from_csv[0].gsub(",","_"), :long =>  data_line_from_csv[1].to_f, :lat => data_line_from_csv[2].to_f, :name => nom, :is_ok=> true}
+            json = {:ville=> data_line_from_csv[0].gsub(",","_"), :long =>  data_line_from_csv[1].to_f, :lat => data_line_from_csv[2].to_f, :name => nom, :is_ok=> false}
             panneaux_mavoix.push json
           end
         end
