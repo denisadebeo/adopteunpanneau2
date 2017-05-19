@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>seinesaint denis 2.kml</name>
+	<Schema name="seinesaint denis 2" id="S_seinesaint_denis_2_SSS">
+		<SimpleField type="string" name="circo"><displayName>&lt;b&gt;circo&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="nom"><displayName>&lt;b&gt;nom&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="adresse"><displayName>&lt;b&gt;adresse&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>circo</b></td><td>$[seinesaint denis 2/circo]</td></tr>
+  <tr><td><b>nom</b></td><td>$[seinesaint denis 2/nom]</td></tr>
+  <tr><td><b>adresse</b></td><td>$[seinesaint denis 2/adresse]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>circo</b></td><td>$[seinesaint denis 2/circo]</td></tr>
+  <tr><td><b>nom</b></td><td>$[seinesaint denis 2/nom]</td></tr>
+  <tr><td><b>adresse</b></td><td>$[seinesaint denis 2/adresse]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>seinesaint denis 2</name>
+		<open>1</open>
+		<Placemark>
+			<name>Centre pablo picasso</name>
+			<LookAt>
+				<longitude>2.441903890462243</longitude>
+				<latitude>48.85913547295939</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001538707016369189</heading>
+				<tilt>10.07980743215056</tilt>
+				<range>153.0169896104791</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>2.441491440596122,48.85945688601227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hotel de ville</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">Seine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Hotel de ville</SimpleData>
+					<SimpleData name="adresse">Place Salvador Allende 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.417073600000021,48.86882560000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Paul Langevin (refectoire)</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">Seine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Paul Langevin (refectoire)</SimpleData>
+					<SimpleData name="adresse">74 rue Robespierre 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.419027000000016,48.8628058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Paul Langevin (preau)</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">Seine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Paul Langevin (preau)</SimpleData>
+					<SimpleData name="adresse">74 rue Robespierre 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.419027000000016,48.8628058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre des questiers des Coutures</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">Seine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Centre des questiers des Coutures</SimpleData>
+					<SimpleData name="adresse">37 rue Jules Ferry 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.417423899999989,48.85790759999996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Jules Ferry</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">Seine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Jules Ferry</SimpleData>
+					<SimpleData name="adresse">33 rue Paul Bert 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.418340599999977,48.85853400000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Henri Barbusse</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">Seine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Henri Barbusse</SimpleData>
+					<SimpleData name="adresse">64 rue Lénine 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.425714599999993,48.86830409999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Paul Vaillant Couturier</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Paul Vaillant Couturier</SimpleData>
+					<SimpleData name="adresse">64 rue Lenine 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.425714599999993,48.86830409999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Jules Verne</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Jules Verne</SimpleData>
+					<SimpleData name="adresse">58 rue Pierre et Marie Curie 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.424701999999983,48.8721427,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Henri Wallon</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Henri Wallon</SimpleData>
+					<SimpleData name="adresse">48 rue Pierre et Marie Curie 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.425006100000004,48.871364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Eugénie Cotton (réfectoire)</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Eugénie Cotton (réfectoire)</SimpleData>
+					<SimpleData name="adresse">8 rue Girardot 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.424982400000002,48.87487520000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole PÍche díOr</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole PÍche díOr</SimpleData>
+					<SimpleData name="adresse">5 rue Auguste Blanqui 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.425977799999988,48.87241139999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Eugénie Cotton (gymnase)</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Eugénie Cotton (gymnase)</SimpleData>
+					<SimpleData name="adresse">8 rue Girardot 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.424982400000002,48.87487520000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Jean Jaurès (gymnase)</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Jean Jaurès (gymnase)</SimpleData>
+					<SimpleData name="adresse">43 rue Anatole France 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.431971499999985,48.87732519999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Jean Jaurés (préau)</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Jean Jaurés (préau)</SimpleData>
+					<SimpleData name="adresse">43 rue Anatole France 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.431971499999985,48.87732519999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole primaire Jean Jaurés</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole primaire Jean Jaurés</SimpleData>
+					<SimpleData name="adresse">91 rue Louise Michel 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.432804299999987,48.87863569999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Frédéric Joliot Curie</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Frédéric Joliot Curie</SimpleData>
+					<SimpleData name="adresse">39 rue René Alazard 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.418644099999989,48.87377119999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Paul Coudert</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Centre Paul Coudert</SimpleData>
+					<SimpleData name="adresse">47 rue Hoche 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.41472630000001,48.87022800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Capsulerie</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Capsulerie</SimpleData>
+					<SimpleData name="adresse">11 rue Désiré Viénot 93170 Bagnolet</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.420617200000015,48.86260260000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hôtel de Ville</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Hôtel de Ville</SimpleData>
+					<SimpleData name="adresse">Place Jean Jaurés 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.442326500000007,48.86254479999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bibliotheque Robert Desnos</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Bibliotheque Robert Desnos</SimpleData>
+					<SimpleData name="adresse">14 boulevard Rouget de l&apos;Isle 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.440635899999974,48.86153949999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Jean Lurçat</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Centre Jean Lurçat</SimpleData>
+					<SimpleData name="adresse">5 place du marché 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.433336599999985,48.8579815,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Paul Bert</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Paul Bert</SimpleData>
+					<SimpleData name="adresse">19 rue Lavoisier 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.419439600000022,48.85377380000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Voltaire</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Voltaire</SimpleData>
+					<SimpleData name="adresse">3 rue Paul Eluard 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.422608200000003,48.85465299999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Françoise Héritier</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Françoise Héritier</SimpleData>
+					<SimpleData name="adresse">34 rue Robespierre 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.422949800000009,48.85404270000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Marceau</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Marceau</SimpleData>
+					<SimpleData name="adresse">27 rue Marceau 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.426258899999985,48.85464249999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Antenne de secteur</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Antenne de secteur</SimpleData>
+					<SimpleData name="adresse">59 bis rue Barbès 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.424647899999983,48.8533659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Louis Aragon</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Louis Aragon</SimpleData>
+					<SimpleData name="adresse">30 rue du Sergent Bobillot 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.434249499999979,48.85556029999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Marcelin Berthelot</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Marcelin Berthelot</SimpleData>
+					<SimpleData name="adresse">8 rue Marcellin Berthelot 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.438654399999973,48.8559145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Marcelin Berthelot</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Marcelin Berthelot</SimpleData>
+					<SimpleData name="adresse">10 rue Marcellin Berthelot 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.4389175,48.85581209999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Mendès France</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Centre Mendès France</SimpleData>
+					<SimpleData name="adresse">59 rue de la Solidarité 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.442919999999993,48.8529084,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre Pablo Picasso</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Centre Pablo Picasso</SimpleData>
+					<SimpleData name="adresse">8 place du 14 juillet 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Salle Franklin</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Salle Franklin</SimpleData>
+					<SimpleData name="adresse">60 rue Franklin 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.444624099999984,48.86364110000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Antenne Diabolo</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Antenne Diabolo</SimpleData>
+					<SimpleData name="adresse">25 rue de Vincennes 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.4378828,48.85537350000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre de loisirs Garibaldi</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Centre de loisirs Garibaldi</SimpleData>
+					<SimpleData name="adresse">12 rue de la Révolution 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.428778900000017,48.85606649999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole Louise Michel</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole Louise Michel</SimpleData>
+					<SimpleData name="adresse">31 boulevard Jeanne d&apos;Arc 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.44513089999999,48.8545339,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Jean Moulin</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Jean Moulin</SimpleData>
+					<SimpleData name="adresse">2 avenue Jean Moulin 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.447970599999976,48.85796499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Anatole France</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Anatole France</SimpleData>
+					<SimpleData name="adresse">18 rue Anatole France 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.459794499999992,48.86072539999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Daniel Renoult</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Daniel Renoult</SimpleData>
+					<SimpleData name="adresse">rue de la CÙte du Nord 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.472642699999987,48.86236830000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Paul Lafargue</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Paul Lafargue</SimpleData>
+					<SimpleData name="adresse">5 rue Paul Lafargue 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.47700640000001,48.86200880000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Romain Rolland</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Romain Rolland</SimpleData>
+					<SimpleData name="adresse">56 rue des blancs Vilains 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.47549129999999,48.86634679999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Nanteuil</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Nanteuil</SimpleData>
+					<SimpleData name="adresse">7 rue de Nanteuil 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.463409000000016,48.87361439999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Nanteuil</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Nanteuil</SimpleData>
+					<SimpleData name="adresse">9 rue de Nanteuil 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.464443399999992,48.87378719999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Danton</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Danton</SimpleData>
+					<SimpleData name="adresse">62 rue de Rochebrune 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.454441300000032,48.86571599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Grands PÍchers</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Grands PÍchers</SimpleData>
+					<SimpleData name="adresse">15 rue Robert Legros 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.464321500000017,48.85876460000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Salle polyvalente Résistence Ecole Stéphane Hessel</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Salle polyvalente Résistence Ecole Stéphane Hessel</SimpleData>
+					<SimpleData name="adresse">50 avenue de la Résistance 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.437418499999993,48.86078019999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Jules Ferry</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Jules Ferry</SimpleData>
+					<SimpleData name="adresse">15 rue des Messiers 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.430835800000022,48.86026160000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Jules Ferry</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Jules Ferry</SimpleData>
+					<SimpleData name="adresse">56 rue Parmentier 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.431003200000004,48.8592717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Joliot Curie</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Joliot Curie</SimpleData>
+					<SimpleData name="adresse">rue Joliot Curie 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.431520100000006,48.86745040000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Joliot Curie</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Joliot Curie</SimpleData>
+					<SimpleData name="adresse">rue Joliot Curie 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.431520100000006,48.86745040000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Jean Jaurès</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Jean Jaurès</SimpleData>
+					<SimpleData name="adresse">12 place du Général de Gaulle 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.434102200000021,48.86872660000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole élémentaire Estienne d&apos;Orves</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole élémentaire Estienne d&apos;Orves</SimpleData>
+					<SimpleData name="adresse">12 rue Estienne d&apos;Orves 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.402619600000016,48.88572559999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Danielle Casanova</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Danielle Casanova</SimpleData>
+					<SimpleData name="adresse">rue Danielle Casanova 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.454834999999993,48.87471719999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle Danielle Casanova</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle Danielle Casanova</SimpleData>
+					<SimpleData name="adresse">rue des Saules Clouets 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.454065799999978,48.87610829999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gymnase Boissière</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Gymnase Boissière</SimpleData>
+					<SimpleData name="adresse">171 boulevard Aristide Briand 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.454831000000022,48.87471130000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ecole maternelle</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Ecole maternelle</SimpleData>
+					<SimpleData name="adresse">Georges Méliés square Alice 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.454747099999994,48.87114639999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centre de loisirs Jules Verne</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_seinesaint_denis_2_SSS">
+					<SimpleData name="circo">ine-Saint-Denis</SimpleData>
+					<SimpleData name="nom">Centre de loisirs Jules Verne</SimpleData>
+					<SimpleData name="adresse">36 rue des Roches 93100 Montreuil</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>2.461690299999977,48.87307020000001,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

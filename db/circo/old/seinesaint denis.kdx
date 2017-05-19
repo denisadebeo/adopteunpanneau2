@@ -1,0 +1,22 @@
+Layout {
+  FileType : "delimited"
+  Delimiter : ";"
+  CoalesceDelimiters : "1"
+  Address : "2"
+  SkipRows : "1"
+  TextCodec : "ISO-8859-1"
+  FieldDefinitions {
+    0 {
+      Name : "circo"
+      Type : "string"
+    }
+    1 {
+      Name : "nom"
+      Type : "string"
+    }
+    2 {
+      Name : "adresse"
+      Type : "string"
+    }
+  }
+}
