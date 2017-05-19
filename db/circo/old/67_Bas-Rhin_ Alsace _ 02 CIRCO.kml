@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>67_Bas-Rhin_ Alsace _ 02 CIRCO.kml</name>
+	<Schema name="67_Bas-Rhin_ Alsace _ 02 CIRCO" id="S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+		<SimpleField type="string" name="Libellé_du_bureau"><displayName>&lt;b&gt;Libellé du bureau&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Adresse___ligne_1"><displayName>&lt;b&gt;Adresse - ligne 1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CP"><displayName>&lt;b&gt;CP&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<color>ffececec</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Libellé du bureau</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/Libellé_du_bureau]</td></tr>
+  <tr><td><b>Adresse - ligne 1</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/Adresse___ligne_1]</td></tr>
+  <tr><td><b>CP</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/CP]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffececec</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffececec</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Style id="hlightPointStyle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Libellé du bureau</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/Libellé_du_bureau]</td></tr>
+  <tr><td><b>Adresse - ligne 1</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/Adresse___ligne_1]</td></tr>
+  <tr><td><b>CP</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/CP]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Libellé du bureau</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/Libellé_du_bureau]</td></tr>
+  <tr><td><b>Adresse - ligne 1</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/Adresse___ligne_1]</td></tr>
+  <tr><td><b>CP</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/CP]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle0">
+		<IconStyle>
+			<color>ffececec</color>
+			<heading>0</heading>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+			<gx:headingMode>auto</gx:headingMode>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Libellé du bureau</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/Libellé_du_bureau]</td></tr>
+  <tr><td><b>Adresse - ligne 1</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/Adresse___ligne_1]</td></tr>
+  <tr><td><b>CP</b></td><td>$[67_Bas-Rhin_ Alsace _ 02 CIRCO/CP]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffececec</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffececec</color>
+		</PolyStyle>
+		<gx:IconStackStyle>
+		</gx:IconStackStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>67_Bas-Rhin_ Alsace _ 02 CIRCO</name>
+		<open>1</open>
+		<Placemark>
+			<name>ECOLE MAT LOUISE SCHEPPLER BV 208</name>
+			<open>1</open>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">HOTEL DE VILLE BV 101</SimpleData>
+					<SimpleData name="Adresse___ligne_1">9 RUE BRULEE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.731199970452305,48.57454458912652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT LOUISE SCHEPPLER BV 206</name>
+			<open>1</open>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">HOTEL DE VILLE BV 101</SimpleData>
+					<SimpleData name="Adresse___ligne_1">9 RUE BRULEE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.731199970452305,48.57454458912652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTEL DE VILLE BV 101</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">HOTEL DE VILLE BV 101</SimpleData>
+					<SimpleData name="Adresse___ligne_1">9 RUE BRULEE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.750949399999989,48.58447829999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT LOUIS PASTEUR BV 102</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT LOUIS PASTEUR BV 102</SimpleData>
+					<SimpleData name="Adresse___ligne_1">12 RUE DES VEAUX</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.7554086,48.58255900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTEL DE VILLE BV 103</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">HOTEL DE VILLE BV 103</SimpleData>
+					<SimpleData name="Adresse___ligne_1">9 RUE BRULEE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.750949399999989,48.58447829999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTEL DE VILLE BV 104</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">HOTEL DE VILLE BV 104</SimpleData>
+					<SimpleData name="Adresse___ligne_1">9 RUE BRULEE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.750949399999989,48.58447829999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT DU FINKWILLER BV 105</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT DU FINKWILLER BV 105</SimpleData>
+					<SimpleData name="Adresse___ligne_1">1 RUE DE LA QUESTION</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.741355499999991,48.57889859999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LYCEE D&apos;ENS PROF ECO CH. FREY BV 106</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">LYCEE D&apos;ENS PROF ECO CH. FREY BV 106</SimpleData>
+					<SimpleData name="Adresse___ligne_1">3 QUAI CHARLES FREY</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.7465436,48.5783119,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE SAINT-THOMAS BV 107</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE SAINT-THOMAS BV 107</SimpleData>
+					<SimpleData name="Adresse___ligne_1">2, RUE DE LA MONNAIE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.744364499999996,48.58003899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE SAINT-THOMAS BV 108</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE SAINT-THOMAS BV 108</SimpleData>
+					<SimpleData name="Adresse___ligne_1">2 , RUE DE LA MONNAIE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.744364499999996,48.58003899999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE SCHOEPFLIN BV 111</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE SCHOEPFLIN BV 111</SimpleData>
+					<SimpleData name="Adresse___ligne_1">6 QUAI SCHOEPFLIN</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.747773200000019,48.5868715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE DES ROMAINS BV 201</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE DES ROMAINS BV 201</SimpleData>
+					<SimpleData name="Adresse___ligne_1">61, ROUTE DES ROMAINS</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.715270500000022,48.5793866,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT CAMILLE CLAUS BV 202</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT CAMILLE CLAUS BV 202</SimpleData>
+					<SimpleData name="Adresse___ligne_1">RUE SAINT-JOSEPH</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.711947699999993,48.58054449999996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GYMNASE ECOLE DU HOHBERG BV 203</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">GYMNASE ECOLE DU HOHBERG BV 203</SimpleData>
+					<SimpleData name="Adresse___ligne_1">10 RUE DU HOHBERG</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.704945399999996,48.57947580000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE DES ROMAINS BV 204</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE DES ROMAINS BV 204</SimpleData>
+					<SimpleData name="Adresse___ligne_1">61 ROUTE DES ROMAINS</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.715270500000022,48.5793866,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE DU GLIESBERG BV 205</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE DU GLIESBERG BV 205</SimpleData>
+					<SimpleData name="Adresse___ligne_1">CHEMIN DU GLIESBERG</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.710947699999986,48.56808150000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT LOUISE SCHEPPLER BV 206</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT LOUISE SCHEPPLER BV 206</SimpleData>
+					<SimpleData name="Adresse___ligne_1">3 RUE DE FOUDAY</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GYMNASE SAINTE AURELIE BV 207</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">GYMNASE SAINTE AURELIE BV 207</SimpleData>
+					<SimpleData name="Adresse___ligne_1">13 RUE MARTIN BUCER</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.733775100000004,48.58138760000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT LOUISE SCHEPPLER BV 208</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT LOUISE SCHEPPLER BV 208</SimpleData>
+					<SimpleData name="Adresse___ligne_1">3 RUE DE FOUDAY</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>0,0,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MAIRIE DE QUARTIER GARE BV 209</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">MAIRIE DE QUARTIER GARE BV 209</SimpleData>
+					<SimpleData name="Adresse___ligne_1">33 RUE KAGENECK</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.738639900000002,48.58624679999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GYMNASE SAINTE AURELIE BV 210</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">GYMNASE SAINTE AURELIE BV 210</SimpleData>
+					<SimpleData name="Adresse___ligne_1">13 RUE MARTIN BUCER</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.733775100000004,48.58138760000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GYMNASE DE L&apos;ECOLE ERCKMANN CHATRIAN BV 211</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">GYMNASE DE L&apos;ECOLE ERCKMANN CHATRIAN BV 211</SimpleData>
+					<SimpleData name="Adresse___ligne_1">280 ROUTE DE SCHIRMECK</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.696861700000013,48.562089,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE JEAN GUTENBERG BV 212</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE JEAN GUTENBERG BV 212</SimpleData>
+					<SimpleData name="Adresse___ligne_1">30 RUE DE BALBRONN</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.704794699999997,48.56187710000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE JEAN GUTENBERG BV 213</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE JEAN GUTENBERG BV 213</SimpleData>
+					<SimpleData name="Adresse___ligne_1">30 RUE DE BALBRONN</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.704794699999997,48.56187710000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE LEONARD DE VINCI BV 214</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE LEONARD DE VINCI BV 214</SimpleData>
+					<SimpleData name="Adresse___ligne_1">3, RUE LEONARD DE VINCI</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.726328800000002,48.56455710000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT MARTIN SCHONGAUER BV 215</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT MARTIN SCHONGAUER BV 215</SimpleData>
+					<SimpleData name="Adresse___ligne_1">92 RUE MARTIN SCHONGAUER</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.719024700000015,48.56317910000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE LEONARD DE VINCI BV 216</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE LEONARD DE VINCI BV 216</SimpleData>
+					<SimpleData name="Adresse___ligne_1">3 RUE LEONARD DE VINCI</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.726328800000002,48.56455710000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FOYER SAINT ARBOGAST BV 217</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">FOYER SAINT ARBOGAST BV 217</SimpleData>
+					<SimpleData name="Adresse___ligne_1">10 RUE DES MEROVINGIENS</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.718860699999994,48.57181500000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE JEAN GUTENBERG BV 218</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE JEAN GUTENBERG BV 218</SimpleData>
+					<SimpleData name="Adresse___ligne_1">30 RUE DE BALBRONN</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.704794699999997,48.56187710000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GYMNASE ECOLE DU HOHBERG BV 219</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">GYMNASE ECOLE DU HOHBERG BV 219</SimpleData>
+					<SimpleData name="Adresse___ligne_1">10 RUE DU HOHBERG</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.704945399999996,48.57947580000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GYMNASE ECOLE DU HOHBERG BV 220</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">GYMNASE ECOLE DU HOHBERG BV 220</SimpleData>
+					<SimpleData name="Adresse___ligne_1">10 RUE DU HOHBERG</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.704945399999996,48.57947580000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT GUSTAVE STOSKOPF BV 301</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT GUSTAVE STOSKOPF BV 301</SimpleData>
+					<SimpleData name="Adresse___ligne_1">22 RUE COLETTE</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.69941750000001,48.58542390000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GYMNASE DE L&apos;ECOLE ELE ELEONORE BV 302</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">GYMNASE DE L&apos;ECOLE ELE ELEONORE BV 302</SimpleData>
+					<SimpleData name="Adresse___ligne_1">5-7 PLACE MONTAIGNE</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.7032166,48.59023520000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE CATHERINE BV 311</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE CATHERINE BV 311</SimpleData>
+					<SimpleData name="Adresse___ligne_1">2 PLACE DE LA COMTESSE DE SEGUR</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.701811200000024,48.5960607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE BRIGITTE BV 312</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE BRIGITTE BV 312</SimpleData>
+					<SimpleData name="Adresse___ligne_1">25 RUE GIOBERTI</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.700004699999994,48.5918228,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE KARINE 1 BV 314</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE KARINE 1 BV 314</SimpleData>
+					<SimpleData name="Adresse___ligne_1">3 CHEMIN JEAN COCTEAU</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.698723499999982,48.59750020000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE JACQUELINE BV 315</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE JACQUELINE BV 315</SimpleData>
+					<SimpleData name="Adresse___ligne_1">3 ALLE JACK LONDON</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.698896200000003,48.5950964,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT GUSTAVE STOSKOPF BV 316</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT GUSTAVE STOSKOPF BV 316</SimpleData>
+					<SimpleData name="Adresse___ligne_1">22 RUE COLETTE</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.69941750000001,48.58542390000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GYMNASE DE L ECOLE ELE ELEONORE BV 318</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">GYMNASE DE L ECOLE ELE ELEONORE BV 318</SimpleData>
+					<SimpleData name="Adresse___ligne_1">5-7 PLACE MONTAIGNE</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.7032166,48.59023520000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE MARCELLE CAHN BV 321</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE MARCELLE CAHN BV 321</SimpleData>
+					<SimpleData name="Adresse___ligne_1">33 RUE DU CERF BERR</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.69189309999998,48.58474970000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT CAMILLE CLAUS BV 322</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT CAMILLE CLAUS BV 322</SimpleData>
+					<SimpleData name="Adresse___ligne_1">RUE SAINT-JOSEPH</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.711947699999993,48.58054449999996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT CAMILLE CLAUS BV 323</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT CAMILLE CLAUS BV 323</SimpleData>
+					<SimpleData name="Adresse___ligne_1">RUE SAINT JOSEPH</SimpleData>
+					<SimpleData name="CP">67200</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.711947699999993,48.58054449999996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>E.N.G.E.E.S. BV 414</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">E.N.G.E.E.S. BV 414</SimpleData>
+					<SimpleData name="Adresse___ligne_1">1, QUAI KOCH</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.758007799999991,48.58496959999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT SAINT-JEAN BV 415</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT SAINT-JEAN BV 415</SimpleData>
+					<SimpleData name="Adresse___ligne_1">13 RUE DES BONNES GENS</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.743905000000026,48.58916470000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT SAINT-JEAN BV 416</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT SAINT-JEAN BV 416</SimpleData>
+					<SimpleData name="Adresse___ligne_1">13 RUE DES BONNES GENS</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.743905000000026,48.58916470000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PALAIS DES FETES BV 417</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">PALAIS DES FETES BV 417</SimpleData>
+					<SimpleData name="Adresse___ligne_1">5 RUE SELLENICK</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.749453899999992,48.59061820000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PALAIS DES FETES BV 418</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">PALAIS DES FETES BV 418</SimpleData>
+					<SimpleData name="Adresse___ligne_1">5 RUE SELLENICK</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.749453899999992,48.59061820000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PALAIS DES FETES BV 419</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">PALAIS DES FETES BV 419</SimpleData>
+					<SimpleData name="Adresse___ligne_1">5 RUE SELLENICK</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.749453899999992,48.59061820000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE SCHOEPFLIN BV 420</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE SCHOEPFLIN BV 420</SimpleData>
+					<SimpleData name="Adresse___ligne_1">6 QUAI SCHOEPFLIN</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.747773200000019,48.5868715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LYCEE KLEBER BV 421</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">LYCEE KLEBER BV 421</SimpleData>
+					<SimpleData name="Adresse___ligne_1">45, RUE JACQUES KABLE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.754790100000024,48.59346430000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LYCEE KLEBER BV 422</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">LYCEE KLEBER BV 422</SimpleData>
+					<SimpleData name="Adresse___ligne_1">45, RUE JACQUES KABLE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.754790100000024,48.59346430000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LYCEE KLEBER BV 423</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">LYCEE KLEBER BV 423</SimpleData>
+					<SimpleData name="Adresse___ligne_1">45, RUE JACQUES KABLE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.754790100000024,48.59346430000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT SAINT-JEAN BV 424</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT SAINT-JEAN BV 424</SimpleData>
+					<SimpleData name="Adresse___ligne_1">13 RUE DES BONNES GENS</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.743905000000026,48.58916470000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LYCEE TECH COMMERCIAL RENE CASSIN BV 501</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">LYCEE TECH COMMERCIAL RENE CASSIN BV 501</SimpleData>
+					<SimpleData name="Adresse___ligne_1">4 RUE SCHOCH</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.770250699999983,48.58290349999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>INSTITUTION SAINTE-CLOTILDE BV 502</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">INSTITUTION SAINTE-CLOTILDE BV 502</SimpleData>
+					<SimpleData name="Adresse___ligne_1">19,RUE DE VERDUN</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.772224599999995,48.58725620000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PAVILLON JOSEPHINE BV 503</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">PAVILLON JOSEPHINE BV 503</SimpleData>
+					<SimpleData name="Adresse___ligne_1">ORANGERIE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.775877499999999,48.59116810000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PAVILLON JOSEPHINE BV 504</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">PAVILLON JOSEPHINE BV 504</SimpleData>
+					<SimpleData name="Adresse___ligne_1">ORANGERIE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.775877499999999,48.59116810000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LYCEE TECH COMMERCIAL RENE CASSIN BV 505</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">LYCEE TECH COMMERCIAL RENE CASSIN BV 505</SimpleData>
+					<SimpleData name="Adresse___ligne_1">4,RUE SCHOCH</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.770250699999983,48.58290349999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LYCEE TECH COMMERCIAL RENE CASSIN BV 506</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">LYCEE TECH COMMERCIAL RENE CASSIN BV 506</SimpleData>
+					<SimpleData name="Adresse___ligne_1">4,RUE SCHOCH</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.770250699999983,48.58290349999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LYCEE TECH COMMERCIAL RENE CASSIN BV 507</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">LYCEE TECH COMMERCIAL RENE CASSIN BV 507</SimpleData>
+					<SimpleData name="Adresse___ligne_1">4, RUE SCHOCH</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.770250699999983,48.58290349999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>INSTITUTION SAINTE-CLOTILDE BV 508</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">INSTITUTION SAINTE-CLOTILDE BV 508</SimpleData>
+					<SimpleData name="Adresse___ligne_1">19 RUE DE VERDUN</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.772224599999995,48.58725620000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE MAT VAUBAN BV 509</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE MAT VAUBAN BV 509</SimpleData>
+					<SimpleData name="Adresse___ligne_1">4 RUE DE LOUVAIN</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.778326600000001,48.58163730000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE DU CONSEIL DES QUINZE BV 510</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE DU CONSEIL DES QUINZE BV 510</SimpleData>
+					<SimpleData name="Adresse___ligne_1">13,RUE DE ROTTERDAM</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.779362199999995,48.58452909999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE DU CONSEIL DES QUINZE BV 511</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE DU CONSEIL DES QUINZE BV 511</SimpleData>
+					<SimpleData name="Adresse___ligne_1">13, RUE DE ROTTERDAM</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.779362199999995,48.58452909999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>INSTITUTION SAINTE-CLOTILDE BV 512</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">INSTITUTION SAINTE-CLOTILDE BV 512</SimpleData>
+					<SimpleData name="Adresse___ligne_1">19, RUE DE VERDUN</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.772224599999995,48.58725620000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ECOLE ELE DU CONSEIL DES QUINZE BV 513</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">ECOLE ELE DU CONSEIL DES QUINZE BV 513</SimpleData>
+					<SimpleData name="Adresse___ligne_1">13 RUE DE ROTTERDAM</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.779362199999995,48.58452909999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PAVILLON JOSEPHINE BV 514</name>
+			<styleUrl>#pointStyleMap0</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffececec</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_67_Bas_Rhin__Alsace___02_CIRCO_SSS">
+					<SimpleData name="Libellé_du_bureau">PAVILLON JOSEPHINE BV 514</SimpleData>
+					<SimpleData name="Adresse___ligne_1">ORANGERIE</SimpleData>
+					<SimpleData name="CP">67000</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>7.775877499999999,48.59116810000003,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

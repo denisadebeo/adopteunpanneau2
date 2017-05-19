@@ -1,0 +1,23 @@
+Layout {
+  FileType : "delimited"
+  Delimiter : ";"
+  CoalesceDelimiters : "1"
+  Street : "1"
+  Zip : "2"
+  SkipRows : "1"
+  TextCodec : "UTF-8"
+  FieldDefinitions {
+    0 {
+      Name : "Libellé du bureau"
+      Type : "string"
+    }
+    1 {
+      Name : "Adresse - ligne 1"
+      Type : "string"
+    }
+    2 {
+      Name : "CP"
+      Type : "string"
+    }
+  }
+}
