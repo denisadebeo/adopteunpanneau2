@@ -6,9 +6,9 @@
   <%@circonscriptions.each do |circonscription|%>
     <tr>
       <td>
-        <%= link_to "/panneaus?ville=#{circonscription}", target: :_blank do %>
+        <%= link_to "/panneaus?ville=#{circonscription}" do  %>
             <%= circonscription.gsub("_"," ") %>
-        <% end %> 
+        <% end %>       
       </td>
 
     </tr>

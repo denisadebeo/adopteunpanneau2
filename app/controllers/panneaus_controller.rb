@@ -87,10 +87,13 @@ class PanneausController < ApplicationController
     id_panneaux = params[:id_panneaux]
 
     if id_panneaux && is_ok
+
       @panneau = @panneaus.find(id_panneaux.to_i)
-      if is_ok != "false"
+      if is_ok != "false" && is_ok != false
+
         @panneau.update(:is_ok=> true)
       else
+
         @panneau.update(:is_ok=> false)
       end
     end

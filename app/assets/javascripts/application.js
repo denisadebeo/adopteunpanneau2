@@ -32,13 +32,11 @@ function init_geoloc(new_spec_update){
   function maPosition(position) {
     var lat = position.coords.latitude;
     var long = position.coords.longitude;
+    spec_update = new_spec_update;
     if (typeof spec_update != 'undefined'){
       var is_ok = spec_update.is_ok
       var id_panneaux = spec_update.id_panneaux
-    }
-    spec_update = new_spec_update
-    //var infopos = "Position déterminée :\n";
-    //infopos += "Altitude : "+position.coords.altitude +"\n";
+    } 
 
     $.urlParam = function(name){
         var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
@@ -63,6 +61,12 @@ function init_geoloc(new_spec_update){
     }
 
     globalAjaxCall("get",path,"");       
+  }
+
+  var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+  if (iOS){
+    var current_url = window.location.href.replace("panneaus","panneaus_gm")
+    window.location.replace(current_url);
   }
 
   if(navigator.geolocation){

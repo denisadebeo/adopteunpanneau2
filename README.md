@@ -15,4 +15,7 @@ le nom de la licence.
 
  0. Faites ce que vous voulez, j’en ai RIEN À BRANLER.
 
+ double body => ok
 
+// state with google map 
+// circo kml
