@@ -6,7 +6,7 @@
   <%@circonscriptions.each do |circonscription|%>
     <tr>
       <td>
-        <%= link_to "/panneaus_gm?ville=#{circonscription}" do %>
+        <%= link_to "/panneaus_gm?ville=#{circonscription}", target: :_blank do %>
             <%= circonscription.gsub("_"," ") %>
         <% end %>       
       </td>
