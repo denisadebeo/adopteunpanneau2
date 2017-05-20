@@ -25,7 +25,7 @@ var map;
 var zoom=16;
 var spec_update;
 var is_update_running = false;
-var markers ;
+var markers;
 
 
 function init_geoloc(new_spec_update){      
@@ -197,67 +197,3 @@ function add_circo(){
 
 
 ////////////////////// GOOGLE MAP //////////////////////
-
-/*
-function initMap() {
-
-
-  $.urlParam = function(name){
-      var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-      if (results==null){
-         return null;
-      }
-      else{
-         return results[1] || 0;
-      }
-  }
-
-  var path = "panneaus/get_nearest_pannel?lat="+lat+"&long="+long;
-  if (typeof $.urlParam('ville') != 'undefined'){
-    path += "&ville="+$.urlParam('ville');
-  }
-
-  if (typeof is_ok != 'undefined'){
-    path += "&is_ok="+is_ok;
-  }
-  if (typeof id_panneaux != 'undefined'){
-    path += "&id_panneaux="+id_panneaux;
-  }
-
-  $.ajax({
-      url: path,
-      type: "get",
-      data: ""
-  }).done(function(panneaus) {
-    //console.log(panneaus);
-
-    var closest_panneau = panneaus[0]
-    $("#closest_panneau").html(closest_panneau.name);
-    $("#closest_panneau").attr("lat",closest_panneau.lat);
-    $("#closest_panneau").attr("long",closest_panneau.long);
-    $("#closest_panneau").attr("id_panneaux",closest_panneau.id);
-    if (typeof map == 'undefined'){
-      console.log("create map");
-      create_map(panneaus);
-    } else {
-      console.log("update map");
-      update_map(panneaus);
-    }
-    loadGiff(false);
-  });
-  return {"ok":"dd"}
-
-  var map = new google.maps.Map(document.getElementById('mapdiv'), {
-    zoom: 4,
-    center: {lat: -33, lng: 151}
-  });
-
-  var image = '/mavoix-ok.png';
-  var beachMarker = new google.maps.Marker({
-    position: {lat: -33.890, lng: 151.274},
-    map: map,
-    icon: image
-  });
-}
-
-*/

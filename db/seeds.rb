@@ -87,6 +87,10 @@ require 'csv'
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+#    "69, Rhône, Rhône-Alpes _ 03 CIRCO", # done in geojson
+#    "13, Bouches-du-rhônes _ 14 CIRCO", # done in geojson
+#    "67, Bas-Rhin, Alsace _ 01 CIRCO", # done in geo json
+#    "93 - seine saint - denis __ 07 CIRCO"# done in geojson
 
   villes_a_conserver = [
     "17, Charente-Maritime, Poitou-Charentes _ 01 CIRCO",
