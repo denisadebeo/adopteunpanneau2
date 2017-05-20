@@ -59,11 +59,12 @@
 
         var lat = position.coords.latitude;
         var long = position.coords.longitude;
+
+        spec_update = new_spec_update;
         if (typeof spec_update != 'undefined'){
           var is_ok = spec_update.is_ok;
           var id_panneaux = spec_update.id_panneaux;
         }
-        spec_update = new_spec_update;
 
         // get parameter from url
         $.urlParam = function(name){
@@ -174,7 +175,7 @@
     function change_panneaus_info_google_map(spec_update) {
       loadGiff(true);
       spec_update['id_panneaux'] = $("#closest_panneau").attr("id_panneaux");
-      init_geoloc(spec_update);
+      initGoogleMap(spec_update);
     }
 
 
