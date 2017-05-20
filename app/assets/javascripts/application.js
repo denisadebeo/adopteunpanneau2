@@ -63,11 +63,11 @@ function init_geoloc(new_spec_update){
     globalAjaxCall("get",path,"");       
   }
 
-  var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-  if (iOS){
-    var current_url = window.location.href.replace("panneaus","panneaus_gm")
-    window.location.replace(current_url);
-  }
+  //var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+  //if (iOS){
+  //  var current_url = window.location.href.replace("panneaus","panneaus_gm")
+  //  window.location.replace(current_url);
+  //}
 
   if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(maPosition);

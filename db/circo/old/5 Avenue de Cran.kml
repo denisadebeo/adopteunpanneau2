@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Placemark id="1.2.1">
+	<name>5 Avenue de Cran</name>
+	<address>5 Avenue de Cran, 74000 Annecy</address>
+	<snippet>5 Avenue de Cran, 74000 Annecy</snippet>
+	<description><![CDATA[<!DOCTYPE html><html lang="fr"> <head> <style>body{font-family:Roboto,Arial,sans-serif}._qNc{background-color:#fafafa;border-radius:2px;bottom:2px;left:2px;position:absolute;right:2px;top:2px}._yNc{font-size:18px;font-weight:bold;line-height:25px;margin-bottom:5px}._pNc{font-size:14px;font-weight:300;line-height:18px;margin-bottom:5px}._vNc{font-size:16px;line-height:normal;color:#e7711b;margin-right:5px}.review-count{font-size:12px;line-height:normal}._wNc,._N8b,._M8b{display:inline-block;background-image:url('//maps.gstatic.com/tactile/omnibox/star-20130618.png');width:13px;height:13px;background-size:36px 12px}._N8b{background-position:-13px 0}._M8b{background-position:-25px 0}._rNc{font-size:12px;margin-bottom:2px}._tNc{font-size:14px;margin-bottom:2px}._CVi{font-size:14px;margin-bottom:2px;margin-top:5px}._DVi{font-size:14px;margin-bottom:2px;margin-top:5px}._xNc{font-size:14px;margin-bottom:2px;margin-top:5px}._i8c{font-size:14px;margin-bottom:2px}._mtd{font-size:14px;padding:6px 15px 2px;margin-bottom:5px}._uNc{overflow:hidden;display:inline-block;vertical-align:top;position:relative}._IGc{font-size:10px;font-style:italic}._EVi{font-weight:600}</style> <meta content="width=device-width, initial-scale=1" name="viewport"> </head> <body> <div class="_qNc"> <div class="_ltd"> <div class="_uNc"> <img alt="5 Avenue de Cran" src="/geo1.ggpht.com/cbk?panoid=1L7Uuv-BoiK4sVjwmErE1Q&amp;output=thumbnail&amp;cb_client=search.TACTILE.gps&amp;thumb=2&amp;w=408&amp;h=306&amp;yaw=178.87105&amp;pitch=0&amp;thumbfov=100" width="100%"> </div> </div> <br> <div> <span class="_yNc">5 Avenue de Cran</span>  <span class="_rNc"></span> </div> <div class="_pNc"> <div> 74000 Annecy </div> </div> <div class="_CVi">   </div>  <div class="_xNc"></div> <br>  <div class="_i8c"></div> <div class="_DWd"> <a href="#" target="_blank">  </a> </div> <br>  <span class="reviews"> <a href="#" target="_blank"> <span class="review-count"></span></a> </span> <div class="_bpd">  </div> </div> </body> </html>]]></description>
+	<styleUrl>#geocode</styleUrl>
+	<ExtendedData>
+		<Data name="placepageUri">
+			<value>https://www.google.com/earth/rpc/entity?lat=45.9052408&amp;lng=6.1206176&amp;fid=0x478b85589012abeb:0xdd611045f8b6a09d&amp;q=5 Avenue de Cran, 74000 Annecy&amp;hl=fr&amp;gl=fr&amp;client=earth-client&amp;cv=7.1.5.1557&amp;useragent=GoogleEarth/7.1.5.1557(Macintosh;Mac OS X (10.11.6);fr;kml:2.2;client:Pro;type:default)</value>
+		</Data>
+	</ExtendedData>
+	<MultiGeometry>
+		<Point>
+			<coordinates>6.1206176,45.9052408,0</coordinates>
+		</Point>
+		<LinearRing>
+			<coordinates>
+				6.117573010035054,45.9029573575263,0 6.117573010035054,45.9075242424737,0 6.123662189964945,45.9075242424737,0 6.123662189964945,45.9029573575263,0 6.117573010035054,45.9029573575263,0 
+			</coordinates>
+		</LinearRing>
+	</MultiGeometry>
+</Placemark>
+</kml>
