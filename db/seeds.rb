@@ -146,14 +146,13 @@ require 'csv'
   panneaux_mavoix = panneaux_mavoix.select{|pnx| pnx != nil}
   panneaux_mavoix.uniq!
   panneaux_mavoix.each{|panneau|
-    #existing_panneau = Panneau.where(:ville => panneau[:ville]).where(:name => panneau[:name]).where(:long => panneau[:long])
-    #puts existing_panneau
-    #puts "-"
-    #if existing_panneau == []
+    existing_panneau = Panneau.where(:ville => panneau[:ville]).where(:name => panneau[:name]).where(:long => panneau[:long])
+
+    if existing_panneau == []
       Panneau.create(panneau)
-    #else 
-    #  puts "non #{existing_panneau.to_json}"
-    #end
+    else 
+      puts "non #{existing_panneau.to_json}"
+    end
   } 
 
 }
