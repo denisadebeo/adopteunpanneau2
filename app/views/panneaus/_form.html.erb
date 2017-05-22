@@ -13,32 +13,31 @@
     <% end %>
 
     <div class="field">
-      <%= f.label :lat %>
-      <%= f.text_field :lat %>
-    </div>
-
-    <div class="field">
-      <%= f.label :long %>
-      <%= f.text_field :long %>
-    </div>
-
-    <div class="field">
       <%= f.label :name %>
-      <%= f.text_field :name %>
+      <%= f.text_field :name, disabled:true %>
     </div>
 
     <div class="field">
-      <%= f.label :is_ok %>
-      <%= f.check_box :is_ok %>
+        <%= f.switch :is_ok, label: "Bonne état ?" %>
     </div>
 
     <div class="field">
       <%= f.label :ville %>
-      <%= f.text_field :ville %>
+      <%= f.text_field :ville, disabled:true %>
+    </div>
+
+    <div class="field">
+      <%= f.label :lat %>
+      <%= f.text_field :lat, disabled:true%>
+    </div>
+
+    <div class="field">
+      <%= f.label :long %>
+      <%= f.text_field :long, disabled:true %>
     </div>
 
     <div class="actions">
-      <%= f.submit %>
+      <%= f.submit class: "button" %>
     </div>
   <% end %>
 </body>

@@ -4,7 +4,6 @@
   <div class="row">
       <div href="#" class="button small-12 large-12 columns" onclick="init_geoloc();">Actualiser la position</div>
   </div>-->
-
   <h1 id="closest_panneau"> Recharger en cas si rien ne se passe au bout de 10 secondes</h1>
 
   <div class="row button-group">
@@ -23,7 +22,10 @@
   <table>
   <%@panneaus.each do |panneau|%>
     <tr>
-      <td> <%= panneau[:name] %> </td>
+      <td>
+          <%= panneau[:name] %>
+        <% end %>
+      </td>
       <td>  
         <% if panneau.updated_at %>
           <%= panneau.updated_at %>
@@ -32,11 +34,15 @@
         <% end%>
       </td>
       <td>
-        <% if panneau[:is_ok] %> 
-          <i class="gen-enclosed foundicon-checkmark"></i><p id=<%=panneau.id%> >Bonne état</p>
-        <%else%>
-          <i class="social foundicon-thumb-down panneau_pourri"></i><p id=<%=panneau.id%>>A recoller</p>
-        <%end%>
+          <% if panneau[:is_ok] %> 
+            <%= link_to edit_panneau_path(panneau), class: "warning button" do %>
+              <i class="gen-enclosed foundicon-checkmark"></i><p id=<%=panneau.id%> >Bonne état</p>
+            <%end%>
+          <%else%>
+            <%= link_to edit_panneau_path(panneau), class: "alert button" do %>
+              <i class="social foundicon-thumb-down panneau_pourri"></i><p id=<%=panneau.id%>>A recoller</p>
+            <%end%>
+          <%end%>
       </td>
     </tr>
   <%end%>

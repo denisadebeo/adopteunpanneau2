@@ -51,21 +51,16 @@ class PanneausController < ApplicationController
   # PATCH/PUT /panneaus/1.json
   def update
 
-    lat = params[:lat]
-    long = params[:long]
-    is_ok = params[:is_ok]
-    id_panneaux = params[:id_panneaux]  
+    respond_to do |format|
+      if @panneau.update(panneau_params)
 
-    if id_panneaux && lat && long
-      @panneau = @panneaus.find(id_panneaux.to_i)
-      if is_ok != "false"
-        @panneau.update(:is_ok=> true)
+        format.html { redirect_to "/panneaus_gm?ville=#{@panneau.ville}" , notice: 'Panneau was successfully updated.' }
+        format.json { render :show, status: :ok, location: @panneau }
       else
-        @panneau.update(:is_ok=> false)
+        format.html { render :edit }
+        format.json { render json: @panneau.errors, status: :unprocessable_entity }
       end
     end
-
-    return  @panneaus.to_json
 
   end
 
@@ -138,7 +133,7 @@ private
         @panneaus = @panneaus.ville(params[:ville]) if params[:ville]
       end
     end
-
+    @panneaus = @panneaus.order(:name)
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.

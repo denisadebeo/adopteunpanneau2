@@ -17,7 +17,9 @@
   <table>
   <%@panneaus.each do |panneau|%>
     <tr>
-      <td> <%= panneau[:name] %> </td>
+      <td>
+        <%= panneau[:name] %>
+      </td>
       <td>  
         <% if panneau.updated_at %>
           <%= panneau.updated_at %>
@@ -25,12 +27,16 @@
           Jamais inspecté
         <% end%>
       </td>
-      <td>
-        <% if panneau[:is_ok] %> 
-          <i class="gen-enclosed foundicon-checkmark"></i><p id=<%=panneau.id%> >Bonne état</p>
-        <%else%>
-          <i class="social foundicon-thumb-down panneau_pourri"></i><p id=<%=panneau.id%>>A recoller</p>
-        <%end%>
+      <td>         
+          <% if panneau[:is_ok] %> 
+            <%= link_to edit_panneau_path(panneau), class: "success button" do %>
+              <p id=<%=panneau.id%> >Bonne état</p>
+            <%end%>
+          <%else%>
+            <%= link_to edit_panneau_path(panneau), class: "alert button" do %>
+             <p id=<%=panneau.id%>>A recoller</p>
+            <%end%>
+          <%end%>
       </td>
     </tr>
   <%end%>
@@ -55,7 +61,7 @@
     function initGoogleMap(new_spec_update) {
 
       function geoPosition(position){
-console.log(position)
+
         var lat = position.coords.latitude;
         var long = position.coords.longitude;
 
@@ -129,7 +135,22 @@ console.log(position)
       });
 
       add_google_map_panneaus(panneaus);
-    }
+
+      // add circo
+      map.data.loadGeoJson(
+        'circo.geojson');
+
+      map.data.setStyle(function(feature) {
+          var color = 'yellow';
+          return /** @type {google.maps.Data.StyleOptions} */({
+            fillOpacity:0,
+            strokeColor: color,
+            strokeWeight: 4
+          });
+      });
+
+    }    
+
 
     function update_google_map(panneaus){
       if (is_update_running == false){
@@ -160,11 +181,27 @@ console.log(position)
           var icon = '/mavoix-no.png';
         }
 
+        data = "<a href='/panneaus/"+panneau.id+"/edit'>"+panneau.name+"</a>";
+
         var marker = new google.maps.Marker({
           position: {lat: panneau.long, lng: panneau.lat},
           map: map,
-          icon: icon
+          icon: icon,
+          data: data
         }); 
+
+        // add info    
+        marker.addListener('click', function() {
+          var infowindow = new google.maps.InfoWindow({
+            content: this.data,
+            maxWidth: 200
+          });    
+          infowindow.open(map, this);
+        });
+
+
+        // record marker
+
         gm_marker.push(marker) ; 
       }  
       var closest_panneau = panneaus[0];

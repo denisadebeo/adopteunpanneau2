@@ -18,4 +18,10 @@ le nom de la licence.
  double body => ok
  state with google map => ok
 
-// circo kml
+22/05/2017
+edition status => ok
+circo kml
+
+// gard 2 circo
+// marseille 4
+// 4 ème du 95
