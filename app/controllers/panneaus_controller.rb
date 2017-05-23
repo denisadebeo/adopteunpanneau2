@@ -34,10 +34,14 @@ class PanneausController < ApplicationController
   def new
     @villes = Panneau.select(:ville).map(&:ville).uniq
     @panneau = Panneau.new
+    if params[:ville]
+      @panneau.ville = params[:ville]
+    end
   end
 
   # GET /panneaus/1/edit
   def edit
+    @villes = Panneau.select(:ville).map(&:ville).uniq
   end
 
   def edit_state

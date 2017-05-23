@@ -26,7 +26,12 @@
       <!--<%= f.text_field :name %>-->
       <select name="panneau[ville]">
         <% @villes.each do |ville|%>
-          <option value="<%=ville%>"><%=ville%></option>
+          <% puts panneau.ville%>
+          <% if ville == panneau.ville%>
+            <option value="<%=ville%>" selected><%=ville%></option>
+          <%else%>
+            <option value="<%=ville%>" ><%=ville%></option>
+          <%end%>
         <% end%>
       </select>
     </div>
