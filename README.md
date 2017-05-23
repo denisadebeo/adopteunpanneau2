@@ -26,3 +26,5 @@ circo kml
 // marseille 4: new geojson
 // gard 2 circo
 // 4 ème du 95
+// bouton ouveau panneau
+// indiquer ou l'on est
