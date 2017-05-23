@@ -1,14 +1,26 @@
 <table>
+  <% if @editable %>
   <tr>
-    <td>
+
+    <td colspan="3">
+
         <%= link_to new_panneau_path(ville: params[:ville]), class: "button" do %>
               nouveau panneau
         <%end%>
-    </td><td></td><td></td><td></td></tr>
+    </td>
+  </tr>
+  <%end%>
   <%@panneaus.each do |panneau|%>
     <tr>
       <td>
-          <%= panneau[:name] %>
+          <% if @editable %>
+            <%= panneau[:name] %>
+            <%= link_to panneau_path(:id => panneau.id), data: { confirm: 'supprimer définitivement' }, class: 'btn btn-danger', method: :delete do %>
+              supprimer
+            <% end %>
+          <%else%>
+            <%= panneau[:name] %>
+          <% end %>
       </td>
       <td>  
         <% if panneau.updated_at %>

@@ -2,22 +2,20 @@
 
   <h1 id="closest_panneau"> Circonscriptions </h1>
 
-  <table>
   <%@circonscriptions.each do |circonscription|%>
-    <tr>
-      <td> 
-        <%= circonscription.gsub("_"," ") %>
-        <%= link_to "/panneaus_gm?ville=#{circonscription}", target: :_blank do %>
-            carte
-        <% end %> 
-        <%= link_to "/panneaus?ville=#{circonscription}" do %>
-            liste editable
-        <% end %>       
-      </td>
-
-    </tr>
+        <div class="row callout">
+          <div class="small-10 columns hollow button">
+            <%= link_to "/panneaus_gm?ville=#{circonscription}", target: :_blank do %>
+              CARTE <%= circonscription.gsub("_"," ") %>
+            <% end %>
+          </div>
+          <div class="medium-2 columns">
+            <%= link_to "/panneaus?ville=#{circonscription}" do %>
+              liste editable
+            <% end %>
+          </div>
+        </div>    
   <%end%>
-  </table>
 
 
   <h1 id="explication"> adopte un panneau</h1>
@@ -33,7 +31,7 @@
       Sur la page de circonscription, au centre de la carte vous voyezle panneaux le plus proche:
       <ul>
         <li>Si il est rouge , c'est que quelqu'un l'a endommagé.</li>
-        <li>Si il est jaune , c'est qu'il est en bonne état.</li>
+        <li>Si il est jaune , c'est qu'il est en Bon état.</li>
       </ul>
       Si le panneau le plus proche que vous voyez est:
       <ul> 

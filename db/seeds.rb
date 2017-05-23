@@ -31,8 +31,9 @@ require 'csv'
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Charge les fichiers des geojsons qui sont les circo manquante du csv
 #   villes_a_faire = [
-#    "13, Bouches-du-rhônes _ 04 CIRCO",
+#    ",
 #  ]
+#    "13, Bouches-du-rhônes _ 04 CIRCO"
 #    "69, Rhône, Rhône-Alpes _ 03 CIRCO", # done in geojson
 #    "13, Bouches-du-rhônes _ 14 CIRCO", # done in geojson
 #    "67, Bas-Rhin, Alsace _ 01 CIRCO", # done in geo json
@@ -43,7 +44,7 @@ require 'csv'
 
   extension = "geojson"
   actualFolder = File.dirname(__FILE__)
-  all_geojson_filter = "#{actualFolder}/circo/**/*.#{extension}"
+  all_geojson_filter = "#{actualFolder}/circo/source/**/*.#{extension}"
   all_json_files = Dir.glob(all_geojson_filter)
 
   all_json_files.each{|geo_json_path|

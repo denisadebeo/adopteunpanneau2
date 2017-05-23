@@ -22,9 +22,13 @@ le nom de la licence.
 edition status => ok
 circo kml
 
-// bouton circo
-// marseille 4: new geojson
-// gard 2 circo
+23/05/2017
+ 	bouton circo
+	bouton nouveau panneau
+	indiquer ou l'on est
+	marseille 4: new geojson
+	correction "bon état"
+
+// gard 2 circo, already here ?
 // 4 ème du 95
-// bouton ouveau panneau
-// indiquer ou l'on est
+// retirer rue paul cazeneuve ? je crois 

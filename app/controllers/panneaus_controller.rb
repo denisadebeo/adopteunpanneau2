@@ -9,6 +9,9 @@ class PanneausController < ApplicationController
     long = params[:long]
     is_ok = params[:is_ok]
     id_panneaux = params[:id_panneaux] 
+    if params[:editable]
+      @editable = true
+    end
   end
 
   def open_street_map
@@ -54,7 +57,7 @@ class PanneausController < ApplicationController
 
     respond_to do |format|
       if @panneau.save
-        format.html { redirect_to @panneau, notice: 'Panneau was successfully created.' }
+        format.html { redirect_to "/panneaus?editable=true&ville=#{@panneau.ville}", notice: 'Panneau was successfully created.' }
         format.json { render :show, status: :created, location: @panneau }
       else
         format.html { render :new }
@@ -69,7 +72,7 @@ class PanneausController < ApplicationController
     respond_to do |format|
       if @panneau.update(panneau_params)
 
-        format.html { redirect_to "/panneaus_gm?ville=#{@panneau.ville}" , notice: 'Panneau was successfully updated.' }
+        format.html { redirect_to "/panneaus?editable=true&ville=#{@panneau.ville}" , notice: 'Panneau was successfully updated.' }
         format.json { render :show, status: :ok, location: @panneau }
       else
         format.html { render :edit }
@@ -82,9 +85,10 @@ class PanneausController < ApplicationController
   # DELETE /panneaus/1
   # DELETE /panneaus/1.json
   def destroy
+    ville = @panneau.ville.to_s
     @panneau.destroy
     respond_to do |format|
-      format.html { redirect_to panneaus_url, notice: 'Panneau was successfully destroyed.' }
+      format.html { redirect_to panneaus_url(:ville=>ville,:editable=>true), notice: 'Panneau was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -132,6 +136,62 @@ class PanneausController < ApplicationController
     return deg * (Math::PI/180)
   end
   
+  def secret_geo_json_loading
+    #patch for adding marseille 4 ieme circo
+    extension = "geojson"
+    actualFolder = File.dirname(__FILE__)
+    all_geojson_filter = "#{actualFolder}/../../db/circo/*.#{extension}"
+    all_json_files = Dir.glob(all_geojson_filter)
+
+    all_json_files.each{|geo_json_path|
+
+      geo_jsons = getHashFromJsonFile geo_json_path
+
+      ville = File.basename(geo_json_path, ".#{extension}")
+
+      geo_json_features = geo_jsons[:features]
+
+      panneaux_mavoix = geo_json_features.map{|geojson| 
+        if geojson[:geometry]
+          if geojson[:geometry][:coordinates]
+            if geojson[:properties]
+              if geojson[:properties][:description]
+                {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:description], :is_ok=> false, :ville=>ville}
+              elsif geojson[:properties][:Description]
+                {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Description], :is_ok=> false, :ville=>ville}
+              elsif geojson[:properties][:Nom]
+                {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Nom], :is_ok=> false, :ville=>ville}
+              elsif geojson[:properties][:Name]
+                {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => geojson[:properties][:Name], :is_ok=> false, :ville=>ville}
+              else
+                {:lat => geojson[:geometry][:coordinates][0], :long =>geojson[:geometry][:coordinates][1], :name => "voir sur la carte", :is_ok=> false, :ville=>ville}
+              end
+            else
+              puts "no geojson[:properties]"
+            end
+          else
+            puts "no geojson[:geometry][:coordinates] "
+          end
+        else
+          puts "no geojson[:geometry]"
+        end
+      }
+      puts panneaux_mavoix.inspect
+      panneaux_mavoix = panneaux_mavoix.select{|pnx| pnx != nil}
+      panneaux_mavoix.uniq!
+      panneaux_mavoix.each{|panneau|
+        existing_panneau = Panneau.where(:ville => panneau[:ville]).where(:name => panneau[:name]).where(:long => panneau[:long])
+
+        if existing_panneau == []
+          Panneau.create(panneau)
+        else 
+          puts "non #{existing_panneau.to_json}"
+        end
+      }
+    } 
+    redirect_to panneaus_url, notice: 'Panneau ajouté.'
+  end
+
 private
   # Use callbacks to share common setup or constraints between actions.
   def set_panneau
@@ -155,4 +215,22 @@ private
   def panneau_params
     params.require(:panneau).permit(:lat, :long, :name, :is_ok, :ville)
   end
+
+  def getHashFromJsonFile(jsonFilePath, sym = true)
+      # get the hash define in the jsonFilePath.json file
+    # configuration are define by symbol (ex: configurations[:key]) except if sym is false
+
+    if !File.exist?(jsonFilePath)
+        puts "no file : #{jsonFilePath}"
+        return nil
+      end
+      jsonConfigurationFile = File.read(jsonFilePath)
+      
+      begin
+        hash = JSON.parse(jsonConfigurationFile,:symbolize_names => sym)
+      rescue JSON::ParserError
+          return nil
+      end
+      return hash
+  end  
 end

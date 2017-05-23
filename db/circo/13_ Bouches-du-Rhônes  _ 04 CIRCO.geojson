@@ -1,0 +1,96 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Description": "2 PCE DE L'HOTEL DES POSTES 13001 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.374428200000011, 43.2990084 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "7 RUE PARMENTIER 13001 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.3795649, 43.2998443 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "9 LA CANEBIERE 13001 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.375470800000016, 43.2961175 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "56 RUE DE LA PAIX MARCEL PAUL 13001 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.372936799999934, 43.2910358 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "6 - 8 RUE SENAC 13001 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.383408899999949, 43.2978666 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "12 RUE BARTHELEMY 13001 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.386035, 43.2977323 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "3 RUE FRANCOIS BAZIN 13001 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.3798557, 43.3007444 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "40 RUE DES ABEILLES 13001 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.385082199999943, 43.3022391 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "11 RUE DES ABEILLES 13001 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.385390700000016, 43.301697399999988 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "160 RUE CONSOLAT 13001 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.393373200000042, 43.3026887 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "8 PCE LEVERRIER 13004 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.3934577, 43.3061893 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "PCE VILLENEUVE BARGEMON 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.369687800000065, 43.2971776 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "13 RUE DES MARTEGALES 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.36568120000004, 43.2966588 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "PCE DU MAZEAU 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.369991700000014, 43.2977174 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "1 RUE DES MUETTES 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.368062, 43.298210399999988 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "41A  RUE DE L'EVECHE 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.366237500000011, 43.3002905 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "26 RUE FRANCOIS MOISSON 13002 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.369115400000055, 43.3013228 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "6 RUE DU TERRAS 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.371474600000056, 43.3017699 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "36 RUE VINCENT LEBLANC 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.368322799999987, 43.3055191 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "32 RUE VINCENT LEBLANC 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.368053799999984, 43.3054841 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "141 CHE DE LA MADRAGUE VILLE 13002 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.354878099999951, 43.3463796 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "3 RUE DE RUFFI 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.37315220000005, 43.3085992 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "16 RUE PEYSSONNEL 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.3729353, 43.3072926 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "47 RUE LUCIEN ROLMER 13003 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.377032699999972, 43.3064888 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "36 RUE DU 141EME R.I.A. 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.380039200000056, 43.306485 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "11 RUE D'AMIENS 13003 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.374820399999976, 43.3074051 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "27 RUE KLEBER 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.374821600000018, 43.3079141 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "7 RUE ANDRE CHAMSON 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.37294, 43.3118287 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "143 RUE FELIX PYAT 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.373012300000028, 43.3177209 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "55 AVE EDOUARD VAILLANT 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.3800761, 43.3156825 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "38 ET 47 RUE DU JET D'EAU 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.381785799999989, 43.3148262 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "3 RUE POMMIER 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.380823299999975, 43.309071499999988 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "6 RUE POMMIER 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.3812567, 43.3091506 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "175 BD NATIONAL 13003 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.3804328, 43.3087238 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "3 PCE BERNARD CADENAT 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.386776300000065, 43.3123576 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "1 BD BOYER 13003 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.3859066, 43.3128435 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "12 BD LOUIS FRANGIN 13005 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.406547199999977, 43.2949859 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "5 RUE DE TIVOLI 13005 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.389218700000015, 43.2981693 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "7 RUE ALEXANDRE COPELLO 13005 " }, "geometry": { "type": "Point", "coordinates": [ 5.390836600000057, 43.2939099 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "10 RUE DES CLAIRISTES 13005 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.391593, 43.2939042 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "5 RUE DES BERGERS 13006 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.383547200000066, 43.2913581 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "56 RUE DE LA PAIX MARCEL PAUL 13006 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.372936799999934, 43.2910358 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "77 RUE GRIGNAN 13006 Marseille" }, "geometry": { "type": "Point", "coordinates": [ 5.372506299999941, 43.2910273 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "18 RUE EYDOUX 13006 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.386969200000067, 43.2908753 ] } }
+,
+{ "type": "Feature", "properties": {   "Description": "20 RUE EYDOUX 13006 MARSEILLE" }, "geometry": { "type": "Point", "coordinates": [ 5.387025499999936, 43.2908355 ] } }
+
+]
+}

@@ -124,7 +124,7 @@ function update_map(panneaus){
     if (typeof spec_update != 'undefined'){
       if (spec_update.is_ok == true){
         markers_last.setUrl('mavoix-ok.png');  
-        $("#"+spec_update.id_panneaux).html("Bonne état");
+        $("#"+spec_update.id_panneaux).html("Bon état");
       } else {
         markers_last.setUrl('mavoix-no.png');  
         $("#"+spec_update.id_panneaux).html("A recoller");
@@ -199,9 +199,11 @@ function add_circo(){
   })
 }
 
-
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
 ////////////////////// GOOGLE MAP //////////////////////
-
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
 
 function initGoogleMap(new_spec_update) {
 
@@ -259,6 +261,12 @@ function initGoogleMap(new_spec_update) {
         console.log("update map");
         update_google_map(panneaus);
       }
+
+      var myposition = new google.maps.Marker({
+        position: {lat: lat, lng: long},
+        map: map,
+      }); 
+
       loadGiff(false);
     });
   }
@@ -281,19 +289,6 @@ function create_google_map(panneaus){
 
   add_google_map_panneaus(panneaus);
 
-  // add circo
-  map.data.loadGeoJson(
-    'circo.geojson');
-
-  map.data.setStyle(function(feature) {
-      var color = 'yellow';
-      return /** @type {google.maps.Data.StyleOptions} */({
-        fillOpacity:0,
-        strokeColor: color,
-        strokeWeight: 4
-      });
-  });
-
 }    
 
 
@@ -304,7 +299,7 @@ function update_google_map(panneaus){
     if (typeof spec_update != 'undefined'){
       if (spec_update.is_ok == true){
         markers_last.setIcon('/mavoix-ok.png');  
-        $("#"+spec_update.id_panneaux).html("Bonne état");
+        $("#"+spec_update.id_panneaux).html("Bon état");
       } else {
         markers_last.setIcon('/mavoix-no.png');  
         $("#"+spec_update.id_panneaux).html("A recoller");
@@ -361,3 +356,16 @@ function change_panneaus_info_google_map(spec_update) {
   initGoogleMap(spec_update);
 }
 
+function show_circo(){
+  // add circo
+  map.data.loadGeoJson('circo.geojson');
+  map.data.setStyle(function(feature) {
+      var color = 'yellow';
+      return /** @type {google.maps.Data.StyleOptions} */({
+        fillOpacity:0,
+        strokeColor: color,
+        strokeWeight: 4
+      });
+  });
+  $("#show_circo").hide();
+}
