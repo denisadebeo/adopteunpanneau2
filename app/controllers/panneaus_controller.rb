@@ -32,6 +32,7 @@ class PanneausController < ApplicationController
 
   # GET /panneaus/new
   def new
+    @villes = Panneau.select(:ville).map(&:ville).uniq
     @panneau = Panneau.new
   end
 

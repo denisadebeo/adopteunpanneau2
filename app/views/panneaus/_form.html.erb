@@ -23,7 +23,12 @@
 
     <div class="field">
       <%= f.label :ville %>
-      <%= f.text_field :ville %>
+      <!--<%= f.text_field :name %>-->
+      <select name="panneau[ville]">
+        <% @villes.each do |ville|%>
+          <option value="<%=ville%>"><%=ville%></option>
+        <% end%>
+      </select>
     </div>
 
     <div class="field">
