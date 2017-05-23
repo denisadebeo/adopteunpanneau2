@@ -22,6 +22,7 @@ le nom de la licence.
 edition status => ok
 circo kml
 
+// bouton circo
+// marseille 4: new geojson
 // gard 2 circo
-// marseille 4
 // 4 ème du 95

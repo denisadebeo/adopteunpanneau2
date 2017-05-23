@@ -5,9 +5,13 @@
   <table>
   <%@circonscriptions.each do |circonscription|%>
     <tr>
-      <td>
+      <td> 
+        <%= circonscription.gsub("_"," ") %>
         <%= link_to "/panneaus_gm?ville=#{circonscription}", target: :_blank do %>
-            <%= circonscription.gsub("_"," ") %>
+            carte
+        <% end %> 
+        <%= link_to "/panneaus?ville=#{circonscription}" do %>
+            liste editable
         <% end %>       
       </td>
 

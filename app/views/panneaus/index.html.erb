@@ -1,30 +1,8 @@
-  <!--
-    <hr>
-<a href="<%=request.original_url.gsub('panneaus','panneaus_gm')%>">Version Iphone</a>  
-  <div class="row">
-      <div href="#" class="button small-12 large-12 columns" onclick="init_geoloc();">Actualiser la position</div>
-  </div>-->
-  <h1 id="closest_panneau"> Recharger en cas si rien ne se passe au bout de 10 secondes</h1>
-
-  <div class="row button-group">
-      <div class="button small-4 large-4 columns" onclick="change_panneaus_info({'is_ok':true});">Bon état</div>
-      <div class="button small-4 large-4 columns" onclick="change_panneaus_info({'is_ok':false});">A recoller</div>
-  </div>
-
-  <!-- load giff-->
-  <div class= "modal"></div>
-
-  <div class="row">
-    <div style="max-height: 800px; height: 300px;" class="small-12 large-12 columns" id="mapdiv"></div>
-  </div>
-
-  <hr>
-  <table>
+<table>
   <%@panneaus.each do |panneau|%>
     <tr>
       <td>
           <%= panneau[:name] %>
-        <% end %>
       </td>
       <td>  
         <% if panneau.updated_at %>
@@ -36,7 +14,7 @@
       <td>
           <% if panneau[:is_ok] %> 
             <%= link_to edit_panneau_path(panneau), class: "warning button" do %>
-              <i class="gen-enclosed foundicon-checkmark"></i><p id=<%=panneau.id%> >Bonne état</p>
+              <i class="gen-enclosed foundicon-checkmark"></i><p id=<%=panneau.id%> >Bon état</p>
             <%end%>
           <%else%>
             <%= link_to edit_panneau_path(panneau), class: "alert button" do %>
@@ -46,16 +24,4 @@
       </td>
     </tr>
   <%end%>
-  </table>
-
-  <script type="text/javascript">
-    $( document ).ready(function() {
-        if (window.location.protocol == "http:"){
-          $("H1").html("!! Passez en HTTPS:// dans la barre d'adresse !!!");
-        }
-        loadGiff(true);
-        document.addEventListener("deviceready",init_geoloc(),false);
-
-    });
-  </script>
-
+</table>

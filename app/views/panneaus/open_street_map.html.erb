@@ -1,0 +1,26 @@
+
+  <h1 id="closest_panneau"> Recharger en cas si rien ne se passe au bout de 10 secondes</h1>
+
+  <div class="row button-group">
+      <div class="button small-4 large-4 columns" onclick="change_panneaus_info({'is_ok':true});">Bon état</div>
+      <div class="button small-4 large-4 columns" onclick="change_panneaus_info({'is_ok':false});">A recoller</div>
+  </div>
+
+  <!-- load giff-->
+  <div class= "modal"></div>
+
+  <div class="row">
+    <div style="max-height: 800px; height: 300px;" class="small-12 large-12 columns" id="mapdiv"></div>
+  </div>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+        if (window.location.protocol == "http:"){
+          $("H1").html("!! Passez en HTTPS:// dans la barre d'adresse !!!");
+        }
+        loadGiff(true);
+        document.addEventListener("deviceready",init_geoloc(),false);
+
+    });
+  </script>
+

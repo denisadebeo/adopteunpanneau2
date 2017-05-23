@@ -1,6 +1,6 @@
 class PanneausController < ApplicationController
-  before_action :set_panneau, only: [:show, :edit, :update, :destroy]
-  before_action :set_panneaus, only: [:index, :index_google_map, :get_nearest_pannel]
+  before_action :set_panneau, only: [:show, :edit,:edit_state, :update, :destroy]
+  before_action :set_panneaus, only: [:index, :get_nearest_pannel, :open_street_map, :google_map]
   
   # GET /panneaus
   # GET /panneaus.json
@@ -11,7 +11,14 @@ class PanneausController < ApplicationController
     id_panneaux = params[:id_panneaux] 
   end
 
-  def index_google_map
+  def open_street_map
+    lat = params[:lat]
+    long = params[:long]
+    is_ok = params[:is_ok]
+    id_panneaux = params[:id_panneaux] 
+  end
+
+  def google_map
     lat = params[:lat]
     long = params[:long]
     is_ok = params[:is_ok]
@@ -30,6 +37,9 @@ class PanneausController < ApplicationController
 
   # GET /panneaus/1/edit
   def edit
+  end
+
+  def edit_state
   end
 
   # POST /panneaus
