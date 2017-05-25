@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get "panneaus/secret_geo_json_loading" => 'panneaus#secret_geo_json_loading'
   get "google_map" => 'panneaus#google_map', as: :google_map_path
   get "open_street_amp" => 'panneaus#open_street_map', as: :open_street_map_path
-  
+  get "panneaus/get_kml" => "panneaus#get_kml"
   get "panneaus_gm" => 'panneaus#google_map'
 
   resources :panneaus

@@ -1,6 +1,6 @@
 class PanneausController < ApplicationController
   before_action :set_panneau, only: [:show, :edit,:edit_state, :update, :destroy]
-  before_action :set_panneaus, only: [:index, :get_nearest_pannel, :open_street_map, :google_map]
+  before_action :set_panneaus, only: [:index, :get_nearest_pannel, :open_street_map, :google_map, :get_kml]
   
   # GET /panneaus
   # GET /panneaus.json
@@ -192,6 +192,15 @@ class PanneausController < ApplicationController
     redirect_to panneaus_url, notice: 'Panneau ajouté.'
   end
 
+
+  def get_kml
+
+    xml = Builder::XmlMarkup.new
+  
+  end
+
+end
+
 private
   # Use callbacks to share common setup or constraints between actions.
   def set_panneau
@@ -233,4 +242,3 @@ private
       end
       return hash
   end  
-end

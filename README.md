@@ -31,4 +31,6 @@ circo kml
 
 // gard 2 circo, already here ?
 // 4 ème du 95
-// retirer rue paul cazeneuve ? je crois 
+// faire un kml geant
+// jout un etat a recoller
+// envoyer un email a un pote

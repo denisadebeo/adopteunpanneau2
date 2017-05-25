@@ -170,6 +170,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  builder
   byebug
   coffee-rails (~> 4.2)
   foundation-icons-sass-rails
