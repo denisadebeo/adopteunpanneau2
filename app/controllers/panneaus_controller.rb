@@ -196,7 +196,8 @@ class PanneausController < ApplicationController
   def get_kml
 
     xml = Builder::XmlMarkup.new
-  
+    render 'panneaus/get_kml.xml.builder', formats: [:xml]
+    
   end
 
 end
