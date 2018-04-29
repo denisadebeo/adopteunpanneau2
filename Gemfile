@@ -6,8 +6,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'rails-html-sanitizer', '~> 1.0.4'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 5.2.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.19'
 # Use Puma as the app server
@@ -43,6 +45,8 @@ gem 'foundation-icons-sass-rails'
 gem "builder"
 
 gem 'nokogiri', '~> 1.8.2'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
